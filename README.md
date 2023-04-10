@@ -6,7 +6,7 @@ Fig.1 shows the picture created for Citio using DALL-E 2 [^1]
 Being in love with exploring small local shops and restaurants, visiting tourist atractions and everything else that a city has to offer, I have always faced a big challenge of finding them, as they can be only found on google maps where only few gain exposure, eliminating smaller local shops and restaurants due to their lack of marketing. Current social network gave them more exposure, but a user has to put a lot of effort to narrow the search only to relevant places in their city only. This means that a lot of time and unnecessary time will have to be wasted. To tackle this issue I am proposing a new creative social network that would connect people located in the same city, and allow them to connect with others through sharing interesting places, culinary expiriences, astonsihing nature and everything one city has to offer.
 
 ## Design Statement
-Design statement: I will to design and make a social network for sharing interesting places in a city for a client who works in the office of the minister of tourism. The development will be done using the software python, CSS and HTML. It will take around 5 weeks to make and will be evaluated according to the success criteria stated below by the client.
+Design statement: I will to design and make a web aplication for social network for sharing interesting places in a city for a client who works in the office of the minister of tourism. The development will be done using the software python, CSS and HTML. It will take around 5 weeks to make and will be evaluated according to the success criteria stated below by the client.
 
 ## Rationale for Proposed Solution
 ## Success Criteria
