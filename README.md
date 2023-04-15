@@ -15,8 +15,7 @@ Fig.1 shows the picture created for Citio using DALL-E 2 [^1]
 2.2. [Wireframe Diagram](#wireframe-diagram)
 
 2.3. [ER Diagram](#er-diagram)
-https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/project_4_er_diagram.png
-Fig.4 shows database structure of the social networj website
+
 2.4. [UML Diagram](#uml-diagram)
 
 2.5. [Flow Diagram](#flow-diagram)
@@ -61,6 +60,8 @@ Why HTML
 ## Wireframe Diagram
 ## Flow Diagram
 ## ER Diagram
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/project_4_er_diagram.png)
+Fig.4 shows database structure of the social network website
 ## UML Diagram
 ## Flow Diagram
 ## Test plan
