@@ -15,7 +15,8 @@ Fig.1 shows the picture created for Citio using DALL-E 2 [^1]
 2.2. [Wireframe Diagram](#wireframe-diagram)
 
 2.3. [ER Diagram](#er-diagram)
-
+https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/project_4_er_diagram.png
+Fig.4 shows database structure of the social networj website
 2.4. [UML Diagram](#uml-diagram)
 
 2.5. [Flow Diagram](#flow-diagram)
@@ -69,11 +70,11 @@ Why HTML
 | 1       | Write the Problem Definition| Write a precise problem definition that identifies a problem, consequences of it, and a clear solution that is being proposed    | 25min         | April 7th    | A         |
 | 2  |  Write down design statement | Have a first version of the design statement done  |  10 min | April 9th  |  A   |
 | 3  |  Write down first success criteria established during the first client meeting | Have a first version of success criteria given by client  | 20min  | April 10th  |  A   |
-| 4  | Write down rationale for the proposed solution |  Have the firt version of rationale written down  | 35 min  | April 13th  |  A   |
+| 4  | Write down rationale for the proposed solution |  Have the firt version of rationale written down  | 45 min  | April 13th  |  A   |
 | 5 | Rewrite success criteria initially stated | Have a clearer version of success criteria| 15 min  |  April 13th  | A|
 | 6  | Add table of content  |  Add table of content at the top of the file |20 min| April 15th   |   A  |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
+|  7 | Create an ER diagram  |  Have an database structure representation for the social network website | 25 min  |  April 15th |   B  |
+| 8  |  Create first version of SNS user interface welcome screen | Have user interface for the starting screen using CSS and HTML style features  | 50 minutes  |  April 15th |  C   |
 |   |   |   |   |   |     |
 |   |   |   |   |   |     |
 |   |   |   |   |   |     |
