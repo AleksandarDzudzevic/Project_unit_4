@@ -1,6 +1,41 @@
 # Citio social network
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/dalee_unit4_project.png)
 Fig.1 shows the picture created for Citio using DALL-E 2 [^1]
+## 1. [Criteria A: Planning](#criteria-a-planning)
+1.1. [Definition of the problem](#problem-definition)
+
+1.2. [Success Criteria](#success-criteria)
+
+1.3. [Design Statement](#design-statement)
+
+1.4. [Rationale for proposed solution](#rationale-for-proposed-solution)
+## 2. [Criteria B: Design](#criteria-b-design)
+2.1[System Diagram](#system-diagram)
+
+2.2. [Wireframe Diagram](#wireframe-diagram)
+
+2.3. [ER Diagram](#er-diagram)
+
+2.4. [UML Diagram](#uml-diagram)
+
+2.5. [Flow Diagram](#flow-diagram)
+
+2.6. [Test plan](#test-plan)
+
+2.7. [Record of tasks](#record-of-tasks)
+
+## 3. [Criteria C: Development](#criteria-c-development)
+3.1.[Tools and techniques used](#tools-and-techniques-used)
+
+3.2. [Sources](#sources)
+
+3.3[Development](#development)
+
+## 4. [Criteria D: Functionality](#criteria-d-functionality)
+ 
+4.1 [SNS Video](#video-showcase)
+
+4.2 [Appendix](#appendix)
 # Criteria A: Planning
 ## Problem Definition
 Being in love with exploring small local shops and restaurants, visiting tourist atractions and everything else that a city has to offer, I have always faced a big challenge of finding them, as they can be hardly found on google maps where only few gain exposure, eliminating smaller local shops and restaurants due to their lack of marketing. Current social network gave these smaller businesses more exposure, but a user has to put great effort to narrow the search only to relevant local places located in their city. If an adequate solution is not presented soon, these smaller businesses will close due to lack of trafic, resulting in market concentration, which in turn would hurt economy and tourism of cities. 
@@ -22,10 +57,11 @@ Why HTML
 
 # Criteria B: Design
 ## System Diagram
-## Wireframe
+## Wireframe Diagram
 ## Flow Diagram
 ## ER Diagram
 ## UML Diagram
+## Flow Diagram
 ## Test plan
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
@@ -33,9 +69,9 @@ Why HTML
 | 1       | Write the Problem Definition| Write a precise problem definition that identifies a problem, consequences of it, and a clear solution that is being proposed    | 25min         | April 7th    | A         |
 | 2  |  Write down design statement | Have a first version of the design statement done  |  10 min | April 9th  |  A   |
 | 3  |  Write down first success criteria established during the first client meeting | Have a first version of success criteria given by client  | 20min  | April 10th  |  A   |
-|   |   |   |   |   |     |
-| 5 | April 13th  | Rewrite success criteria initially stated | Have a clearer version of success criteria| 15 min  |  April 13th  | A
-|   |   |   |   |   |     |
+| 4  | Write down rationale for the proposed solution |  Have the firt version of rationale written down  | 35 min  | April 13th  |  A   |
+| 5 | Rewrite success criteria initially stated | Have a clearer version of success criteria| 15 min  |  April 13th  | A|
+| 6  | Add table of content  |  Add table of content at the top of the file |20 min| April 15th   |   A  |
 |   |   |   |   |   |     |
 |   |   |   |   |   |     |
 |   |   |   |   |   |     |
@@ -64,15 +100,15 @@ Why HTML
 |   |   |   |   |   |     |
 
 # Criteria C: Development
-## Existing tools
-## List of techniques used
+## Tools and techniques used
 No definition!  
+## Sources
+
 ## Development
 Explain how I was challenged and how I solved with explaining the lines of codes.
 
 # Criteria D: Functionality
-## A video demonstrating the proposed solution with narration
-
+## Video showcase
 # Appendix
 
 # Works cited
