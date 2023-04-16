@@ -81,31 +81,31 @@ Fig.6 shows post database of social network website, presented in the ER diagram
 | 5 | Rewrite success criteria initially stated | Have a clearer version of success criteria| 15 min  |  April 13th  | A|
 | 6  | Add table of content  |  Add table of content at the top of the file |20 min| April 15th   |   A  |
 |  7 | Create an ER diagram  |  Have an database structure representation for the social network website | 25 min  |  April 15th |   B  |
-| 8  |  Create first version of SNS user interface welcome screen | Have user interface for the starting screen using CSS and HTML style features  | 50 min  |  April 15th |  C   |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
-|   |   |   |   |   |     |
+| 8  |  Create first version of SNS user interface welcome screen | Have user interface for the starting screen using CSS and HTML style features  |50 min  |  April 15th |  C   |
+|  9| Create System diagram for SNS | Have a first version of system diagram done and ready to be presented to the client | 30 min  | April 16th  | B |
+| 10|   |   |   |   |     |
+|  11 |   |   |   |   |     |
+|  12 |   |   |   |   |     |
+|  13 |   |   |   |   |     |
+|   14|   |   |   |   |     |
+| 15  |   |   |   |   |     |
+| 16  |   |   |   |   |     |
+|  17 |   |   |   |   |     |
+| 18  |   |   |   |   |     |
+|  19 |   |   |   |   |     |
+|  20 |   |   |   |   |     |
+|  21 |   |   |   |   |     |
+|   22|   |   |   |   |     |
+|  23 |   |   |   |   |     |
+|   24|   |   |   |   |     |
+|   25|   |   |   |   |     |
+|   26|   |   |   |   |     |
+|   27|   |   |   |   |     |
+|   28|   |   |   |   |     |
+|  29 |   |   |   |   |     |
+|  30 |   |   |   |   |     |
+|  31 |   |   |   |   |     |
+|  32 |   |   |   |   |     |
 
 # Criteria C: Development
 ## Tools and techniques used
