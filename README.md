@@ -57,7 +57,8 @@ Why HTML
 
 # Criteria B: Design
 ## System Diagram
-![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/Project_4%20System%20Diagram.png)
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/Project4systemdiagram.png)
+Fig.3 shows the system diagram of the social network website
 ## Wireframe Diagram
 ## Flow Diagram
 ## ER Diagram
