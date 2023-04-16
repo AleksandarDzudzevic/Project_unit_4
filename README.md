@@ -71,6 +71,15 @@ Fig.6 shows post database of social network website, presented in the ER diagram
 ## UML Diagram
 ## Flow Diagram
 ## Test plan
+|Test Number|Description|Test Type| Target|Procedure|Expected Outcome|
+|-----------|-----------|--------|-----------|-----------------|----|
+|1| |Unit testing| | | |
+|2| |Unit testing| | | | 
+|3| |Integration testing| | | |
+|4| |Integration testing| | | |
+|5| |Code Review| | | | 
+|6| |Code Review| | | |
+
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
@@ -83,7 +92,7 @@ Fig.6 shows post database of social network website, presented in the ER diagram
 |  7 | Create an ER diagram  |  Have an database structure representation for the social network website | 25 min  |  April 15th |   B  |
 | 8  |  Create first version of SNS user interface welcome screen | Have user interface for the starting screen using CSS and HTML style features  |50 min  |  April 15th |  C   |
 |  9| Create System diagram for SNS | Have a first version of system diagram done and ready to be presented to the client | 30 min  | April 16th  | B |
-| 10|   |   |   |   |     |
+| 10|     |   |   |   |     |
 |  11 |   |   |   |   |     |
 |  12 |   |   |   |   |     |
 |  13 |   |   |   |   |     |
