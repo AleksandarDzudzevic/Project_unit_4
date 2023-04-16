@@ -67,6 +67,14 @@ Fig.4 shows database structure of the social network website
 ## UML Diagram
 ## Flow Diagram
 ## Test plan
+|Test Number|Description|Test Type| Target|Procedure|Expected Outcome|
+|-----------|-----------|--------|-----------|-----------------|----|
+|1|         |Unit testing|        |           |               |  
+|2|         |Unit testing|        |           |               | 
+|3|         |Integration testing|        |           |               | 
+|4|         |Integration testing|        |           |               | 
+|5|         |Code Review|        |           |               | 
+|6|         |Code Review|        |           |               | 
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
