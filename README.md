@@ -65,9 +65,9 @@ Fig.3 shows the system diagram of the social network website
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/project_4_er_diagram.png)
 Fig.4 shows database structure of the social network website
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/user%20databse.png)
-Fig.5 shows user database of the social network website, presented in the ER diagram
+Fig.5 shows user database of the social network website, presented in the ER diagram (data provided in the example is not actual data gathered from any of the users.)
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/post%20database.png)
-Fig.6 shows post database of social network website, presented in the ER diagram
+Fig.6 shows post database of social network website, presented in the ER diagram (data provided in the example is not actual data gathered from any of the users.)
 ## UML Diagram
 ## Flow Diagram
 ## Test plan
