@@ -64,17 +64,13 @@ Fig.3 shows the system diagram of the social network website
 ## ER Diagram
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/project_4_er_diagram.png)
 Fig.4 shows database structure of the social network website
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/user%20databse.png)
+Fig.5 shows user database of the social network website, presented in the ER diagram
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/post%20database.png)
+Fig.6 shows post database of social network website, presented in the ER diagram
 ## UML Diagram
 ## Flow Diagram
 ## Test plan
-|Test Number|Description|Test Type| Target|Procedure|Expected Outcome|
-|-----------|-----------|--------|-----------|-----------------|----|
-|1|         |Unit testing|        |           |               |  
-|2|         |Unit testing|        |           |               | 
-|3|         |Integration testing|        |           |               | 
-|4|         |Integration testing|        |           |               | 
-|5|         |Code Review|        |           |               | 
-|6|         |Code Review|        |           |               | 
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
