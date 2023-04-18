@@ -1,6 +1,6 @@
 # Citio social network
-![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/dalee_unit4_project.png)
-Fig.1 shows the picture created for Citio using DALL-E 2 [^1]
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/Project4pictureDreamAi.jpg)
+Fig.1 shows the picture created for Citio Dream AI[^1] generated on the prompt Create an image of people taking pictures of local japanese shops and shrines on their phiones and clouds representing their social media posts about it.
 ## 1. [Criteria A: Planning](#criteria-a-planning)
 1.1. [Definition of the problem](#problem-definition)
 
@@ -138,7 +138,7 @@ Explain how I was challenged and how I solved with explaining the lines of codes
 # Appendix
 
 # Works cited
-[^1]: Open AI DALL-E 2 (https://labs.openai.com/s/uCyXQVhhqoXmRdc2Y9KDUyIR)
+[^1]: Dream AI generated image (https://Project4pictureDreamAi.jpg)
 [^2]: Sengar, Ritesh. “Python vs PHP: Which Is Better for Web Development?” Hackernoon, 7 Jan. 2021, hackernoon.com/python-vs-php-which-is-better-for-web-development-cj1236mj. 
 [^3]: "Welcome to Flask." Flask Documentation, 15 Jan. 2023, flask.palletsprojects.com/en/2.1.x/. 
 [^4]: Grinberg, Miguel. Flask Web Development: Developing Web Applications with Python. 2nd ed., O'Reilly Media, Inc., 2018. 
