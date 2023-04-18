@@ -44,10 +44,18 @@ Being in love with exploring small local shops and restaurants, visiting tourist
 To tackle this issue I will design a new creative social network that would allow people located in the same city to connect with others through sharing interesting local places, culinary expiriences, astonsihing nature and everything one city has to offer. The development will be done using the software Flask framework in Python, CSS and HTML. It will take around 5 weeks to develop and will be evaluated according to the success criteria stated below by the client.
 
 ## Rationale for Proposed Solution
-WHY Python
-Why database/sqlite
-Why HTML
-250 words
+
+
+### Why Python?
+Python contains many versatile features, which make it a better choice compared to other languages, for example PHP[^2]. Python's Flask framework is ideal for developing social network websites due to its lightweight and flexible nature [^3]. Flask's simplicity and ease of use make it an excellent choice for this project, allowing developers to focus on the website's core features and functionality. It also offers a range of libraries and extensions, making it easier to implement complex features such as authentication and database connectivity, when compared to its competitors such as PHP or ruby [^4]. With Python's object-oriented programming, developers can write code that is easy to read, modify, and maintain, which is essential when creating a complex web application such as a social network website. Additionally, Python has an active community of developers who offer support and resources, making it easier to learn and develop with the language.
+
+### Why SQL
+To store the vast amounts of data needed for a social network website, a reliable and efficient database is essential. While non-SQL databases can be an option, SQL databases offer several advantages that make them better suited for this purpose. The main advantage of SQL databases is their ability to handle large amounts of data efficiently, thanks to their relational structure[^5]. The relational structure of SQL databases makes it easier to manage and query data, as it is stored in tables. This feature also ensures that data is consistent and accurate, as it is subject to strong data integrity constraints[^6]. With all the data that is being stored for this social network website, an SQL database is essential to ensure efficient data handling and management.
+
+### Why HTML
+HTML is the standard markup language used to create web pages and it provides the structure and content of a website[^7]. Compared to other alternatives such as Flash, HTML is more widely supported, making it a better choice for cross-platform compatibility[^8]. Additionally, HTML is more search engine friendly than other technologies such as JavaScript, which can lead to better search engine rankings[^9].
+
+
 ## Success Criteria
 1. The social network website will provide a login and registration system.
 2. The social network website will allow users to post their reviews of the local places, containing title, date, and content.
@@ -86,14 +94,14 @@ Fig.6 shows post database of social network website, presented in the ER diagram
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Write the Problem Definition| Write a precise problem definition that identifies a problem, consequences of it, and a clear solution that is being proposed    | 25min         | April 7th    | A         |
 | 2  |  Write down design statement | Have a first version of the design statement done  |  10 min | April 9th  |  A   |
-| 3  |  Write down first success criteria established during the first client meeting | Have a first version of success criteria given by client  | 20min  | April 10th  |  A   |
+| 3  |  Write down first success criteria established during the first user meeting | Have a first version of success criteria inspired by potential future users. Their opinions and preferences were gathered through a questionire  | 40min  | April 10th  |  A   |
 | 4  | Write down rationale for the proposed solution |  Have the firt version of rationale written down  | 45 min  | April 13th  |  A   |
 | 5 | Rewrite success criteria initially stated | Have a clearer version of success criteria| 15 min  |  April 13th  | A|
 | 6  | Add table of content  |  Add table of content at the top of the file |20 min| April 15th   |   A  |
 |  7 | Create an ER diagram  |  Have an database structure representation for the social network website | 25 min  |  April 15th |   B  |
 | 8  |  Create first version of SNS user interface welcome screen | Have user interface for the starting screen using CSS and HTML style features  |50 min  |  April 15th |  C   |
 |  9| Create System diagram for SNS | Have a first version of system diagram done and ready to be presented to the client | 30 min  | April 16th  | B |
-| 10|     |   |   |   |     |
+| 10|   Create functional registration system and have a first version UI for it  created |  Have a functional registration system for the SNS | 35 min  |   | April 17th    |C
 |  11 |   |   |   |   |     |
 |  12 |   |   |   |   |     |
 |  13 |   |   |   |   |     |
@@ -131,3 +139,12 @@ Explain how I was challenged and how I solved with explaining the lines of codes
 
 # Works cited
 [^1]: Open AI DALL-E 2 (https://labs.openai.com/s/uCyXQVhhqoXmRdc2Y9KDUyIR)
+[^2]: Sengar, Ritesh. “Python vs PHP: Which Is Better for Web Development?” Hackernoon, 7 Jan. 2021, hackernoon.com/python-vs-php-which-is-better-for-web-development-cj1236mj. 
+[^3]: "Welcome to Flask." Flask Documentation, 15 Jan. 2023, flask.palletsprojects.com/en/2.1.x/. 
+[^4]: Grinberg, Miguel. Flask Web Development: Developing Web Applications with Python. 2nd ed., O'Reilly Media, Inc., 2018. 
+[^5]: “What Is a Database?” Oracle, https://www.oracle.com/database/what-is-database/. 
+[^6]: "What is SQL?" W3Schools, W3Schools, https://www.w3schools.com/sql/
+[^7]: "HTML Introduction." W3Schools, W3Schools, https://www.w3schools.com/html/html_intro.asp
+[^8]: "Flash vs. HTML5." Digital.gov, 17 Dec. 2015, https://digital.gov/resources/flash-vs-html5/.
+[^9]: "Why You Need an SEO-Friendly Website." SEO Werkz, 11 Jan. 2022, https://www.seowerkz.com/why-you-need-an-seo-friendly-website/.
+
