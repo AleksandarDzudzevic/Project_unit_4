@@ -51,10 +51,10 @@ To tackle this issue I will design a new creative social network that would allo
 ### Why Python?
 Python contains many versatile features, which make it a better choice compared to other languages, for example PHP[^2]. Python's Flask framework is ideal for developing social network websites due to its lightweight and flexible nature [^3]. Flask's simplicity and ease of use make it an excellent choice for this project, allowing developers to focus on the website's core features and functionality. It also offers a range of libraries and extensions, making it easier to implement complex features such as authentication and database connectivity, when compared to its competitors such as PHP or ruby [^4]. With Python's object-oriented programming, developers can write code that is easy to read, modify, and maintain, which is essential when creating a complex web application such as a social network website. Additionally, Python has an active community of developers who offer support and resources, making it easier to learn and develop with the language.
 
-### Why SQL
+### Why SQL?
 To store the vast amounts of data needed for a social network website, a reliable and efficient database is essential. While non-SQL databases can be an option, SQL databases offer several advantages that make them better suited for this purpose. The main advantage of SQL databases is their ability to handle large amounts of data efficiently, thanks to their relational structure[^5]. The relational structure of SQL databases makes it easier to manage and query data, as it is stored in tables. This feature also ensures that data is consistent and accurate, as it is subject to strong data integrity constraints[^6]. With all the data that is being stored for this social network website, an SQL database is essential to ensure efficient data handling and management.
 
-### Why HTML
+### Why HTML?
 HTML is the standard markup language used to create web pages and it provides the structure and content of a website[^7]. Compared to other alternatives such as Flash, HTML is more widely supported, making it a better choice for cross-platform compatibility[^8]. Additionally, HTML is more search engine friendly than other technologies such as JavaScript, which can lead to better search engine rankings[^9].
 
 
