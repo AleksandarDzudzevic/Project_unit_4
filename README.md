@@ -103,9 +103,9 @@ Fig.6 shows post database of social network website, presented in the ER diagram
 |  7 | Create an ER diagram  |  Have an database structure representation for the social network website | 25 min  |  April 15th |   B  |
 | 8  |  Create first version of SNS user interface welcome screen | Have user interface for the starting screen using CSS and HTML style features  |50 min  |  April 15th |  C   |
 |  9| Create System diagram for SNS | Have a first version of system diagram done and ready to be presented to the client | 30 min  | April 16th  | B |
-| 10|   Create functional registration system and have a first version UI for it  created |  Have a functional registration system for the SNS | 35 min  |   | April 17th    |C
-|  11 | Create a active password policy check for the login feature  | Have a visual presentation showing if the password policy has been met or not  |   | 25 min | April 18th    | C
-|  12 |   |   |   |   |     |
+| 10|   Create functional registration system and have a first version UI for it  created |  Have a functional registration system for the SNS | 35 min    | April 17th    |C
+|  11 | Create a active password policy check for the login feature  | Have a visual presentation showing if the password policy has been met or not  | 25 min | April 18th    | C
+|  12 | Work on flow diargam for the registration system of the SNS  | Have flow diagram that represnets registration system done  | 35 min  |  April 18th |   B  |
 |  13 |   |   |   |   |     |
 |   14|   |   |   |   |     |
 | 15  |   |   |   |   |     |
