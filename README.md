@@ -87,8 +87,8 @@ Fig.8 Shows the flow diagram for the registration system of the Citio social net
 |Test Number|Description|Test Type| Target|Procedure|Expected Outcome|
 |-----------|-----------|--------|-----------|-----------------|----|
 |1|Account registration system|Unit testing|Have a fully functional registration system that checks if the proper values are inputed in the email and password fields|(1) Run Project_4.py (2) Click the register button on the login screen (3) Input data on all the fields (4) After filling in all the fields create an account (5) Try to login with the new account too see if it exists now| After following the procedure, a user should be able to login using the credentials of the newly created account|
-|2| |Unit testing| | | | 
-|3| |Integration testing| | | |
+|2|User list inspecting |Unit testing| Access user list and see if the list is visible | | | 
+|3|Accesing a specific user |Integration testing| From user list->specific user profile| | |
 |4| |Integration testing| | | |
 |5| |Code Review| | | | 
 |6| |Code Review| | | |
@@ -108,7 +108,7 @@ Fig.8 Shows the flow diagram for the registration system of the Citio social net
 | 10|   Create functional registration system and have a first version UI for it  created |  Have a functional registration system for the SNS | 35 min    | April 17th    |C
 |  11 | Create a active password policy check for the login feature  | Have a visual presentation showing if the password policy has been met or not  | 25 min | April 18th    | C
 |  12 | Work on flow diargam for the registration system of the SNS  | Have flow diagram that represnets registration system done  | 35 min  |  April 18th |   B  |
-|  13 |   |   |   |   |     |
+|  13 |  Work on the user list UI and list information | Redo initial UI for the user list webpage and add city information to the user informations displayed in the list  |  40 min | April 19th  |   C  |
 |   14|   |   |   |   |     |
 | 15  |   |   |   |   |     |
 | 16  |   |   |   |   |     |
