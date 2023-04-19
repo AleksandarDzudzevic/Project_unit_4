@@ -109,7 +109,7 @@ Fig.8 Shows the flow diagram for the registration system of the Citio social net
 |  11 | Create a active password policy check for the login feature  | Have a visual presentation showing if the password policy has been met or not  | 25 min | April 18th    | C
 |  12 | Work on flow diargam for the registration system of the SNS  | Have flow diagram that represnets registration system done  | 35 min  |  April 18th |   B  |
 |  13 |  Work on the user list UI and list information | Redo initial UI for the user list webpage and add city information to the user informations displayed in the list  |  40 min | April 19th  |   C  |
-|   14|   |   |   |   |     |
+|   14| Create the second version of the system diagram  |  Create a more accurate version of a system diagram | 20min  | April 19th  | B |
 | 15  |   |   |   |   |     |
 | 16  |   |   |   |   |     |
 |  17 |   |   |   |   |     |
