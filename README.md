@@ -68,7 +68,7 @@ HTML is the standard markup language used to create web pages and it provides th
 
 # Criteria B: Design
 ## System Diagram
-![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/Project4system_diagram_v2.png))
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/SystemDiagramPr2_v2.png)
 Fig.3 shows the system diagram of the social network website
 ## Wireframe Diagram
 ## Flow Diagram
