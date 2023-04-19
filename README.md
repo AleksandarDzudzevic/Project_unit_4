@@ -88,7 +88,7 @@ Fig.8 Shows the flow diagram for the registration system of the Citio social net
 |-----------|-----------|--------|-----------|-----------------|----|
 |1|Account registration system|Unit testing|Have a fully functional registration system that checks if the proper values are inputed in the email and password fields|(1) Run Project_4.py (2) Click the register button on the login screen (3) Input data on all the fields (4) After filling in all the fields create an account (5) Try to login with the new account too see if it exists now| After following the procedure, a user should be able to login using the credentials of the newly created account|
 |2|User list inspecting |Unit testing| Access user list and see if the list is visible | | | 
-|3|Accesing a specific user |Integration testing| From user list->specific user profile| | |
+|3|Accesing a specific user from the user list|Integration testing| From user list->specific user profile| | |
 |4| |Integration testing| | | |
 |5| |Code Review| | | | 
 |6| |Code Review| | | |
