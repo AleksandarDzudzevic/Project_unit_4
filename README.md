@@ -42,11 +42,15 @@ Fig.1 shows the picture created for Citio Dream AI[^1] generated on the prompt C
 ## Problem Definition
 Being in love with exploring small local shops and restaurants, visiting tourist atractions and everything else that a city has to offer, I have always faced a big challenge of finding them, as they can be hardly found on google maps where only few gain exposure, eliminating smaller local shops and restaurants due to their lack of marketing. Current social network gave these smaller businesses more exposure, but a user has to put great effort to narrow the search only to relevant local places located in their city. If an adequate solution is not presented soon, these smaller businesses will close due to lack of trafic, resulting in market concentration, which in turn would hurt economy and tourism of cities. 
 
+## Proposed Solution
+To provide more exposure for the local places and prevent them running out of business, after doing market testing [refered to in appendix](#appendix) I have decided to make a web applicaton that would serve as a place where people could connect with others through sharing interesting local places, culinary expiriences, astonsihing nature and everything one city has to offer.
 ## Design Statement
-To tackle this issue I will design a new creative social network that would allow people located in the same city to connect with others through sharing interesting local places, culinary expiriences, astonsihing nature and everything one city has to offer. The development will be done using the software Flask framework in Python, CSS and HTML. It will take around 5 weeks to develop and will be evaluated according to the success criteria stated below by the client.
+I will design a new creative social network that will allow users to share their reviews of the small local places. The development will be done using the software Flask framework in Python, CSS and HTML. It will take around 5 weeks to develop and will be evaluated according to the success criteria stated below by the client.
 
 ## Rationale for Proposed Solution
 
+### Why Web Application?
+Web applications are more adequate when developing a social network like the one I am making because it allows easier access and sharing of information across multiple devices without the need for downloading and installing an application. Users can simply access the website through a web browser on their desktop or mobile devices. THis increases the potential audience size as makes it easier for users to share their experiences with others. Lastly, a web applications can be maintained easily and can be optimized for search engines, making it easier for new users to discover and join the social network.
 
 ### Why Python?
 Python contains many versatile features, which make it a better choice compared to other languages, for example PHP[^2]. Python's Flask framework is ideal for developing social network websites due to its lightweight and flexible nature [^3]. Flask's simplicity and ease of use make it an excellent choice for this project, allowing developers to focus on the website's core features and functionality. It also offers a range of libraries and extensions, making it easier to implement complex features such as authentication and database connectivity, when compared to its competitors such as PHP or ruby [^4]. With Python's object-oriented programming, developers can write code that is easy to read, modify, and maintain, which is essential when creating a complex web application such as a social network website. Additionally, Python has an active community of developers who offer support and resources, making it easier to learn and develop with the language.
@@ -60,10 +64,9 @@ HTML is the standard markup language used to create web pages and it provides th
 
 ## Success Criteria
 1. The social network website will provide a login and registration system.
-2. The social network website will allow users to post their reviews of the local places, containing title, date, and content.
+2. The social network website will allow users to post or delete their reviews of the local places, containing title, date, and content.
 3. The social network website will have a feature to display all users and the city about which they post.
 4. The social network website will have an option to choose a city which you are interested in, and see only relevant reviews.
-5. The social media will allow a user signed in to upload and delete posts from their account.
 6. The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile.
 
 # Criteria B: Design
@@ -99,26 +102,25 @@ Fig.8 Shows the flow diagram for the registration system of the Citio social net
 | 1       | Write the Problem Definition| Write a precise problem definition that identifies a problem, consequences of it, and a clear solution that is being proposed    | 25min         | April 7th    | A         |
 | 2  |  Write down design statement | Have a first version of the design statement done  |  10 min | April 9th  |  A   |
 | 3  |  Write down first success criteria established during the first user meeting | Have a first version of success criteria inspired by potential future users. Their opinions and preferences were gathered through a questionire  | 40min  | April 10th  |  A   |
-| 4  | Write down rationale for the proposed solution |  Have the firt version of rationale written down  | 45 min  | April 13th  |  A   |
-| 5 | Rewrite success criteria initially stated | Have a clearer version of success criteria| 15 min  |  April 13th  | A|
-| 6  | Add table of content  |  Add table of content at the top of the file |20 min| April 15th   |   A  |
-|  7 | Create an ER diagram  |  Have an database structure representation for the social network website | 25 min  |  April 15th |   B  |
-| 8  |  Create first version of SNS user interface welcome screen | Have user interface for the starting screen using CSS and HTML style features  |50 min  |  April 15th |  C   |
-|  9| Create System diagram for SNS | Have a first version of system diagram done and ready to be presented to the client | 30 min  | April 16th  | B |
-| 10|   Create functional registration system and have a first version UI for it  created |  Have a functional registration system for the SNS | 35 min    | April 17th    |C
-|  11 | Create a active password policy check for the login feature  | Have a visual presentation showing if the password policy has been met or not  | 25 min | April 18th    | C
-|  12 | Work on flow diargam for the registration system of the SNS  | Have flow diagram that represnets registration system done  | 35 min  |  April 18th |   B  |
-|  13 |  Work on the user list UI and list information | Redo initial UI for the user list webpage and add city information to the user informations displayed in the list  |  40 min | April 19th  |   C  |
-|   14| Create the second version of the system diagram  |  Create a more accurate version of a system diagram | 20min  | April 19th  | B |
-| 15  |   |   |   |   |     |
+| 5 | Write down rationale for the proposed solution |  Have the firt version of rationale written down  | 45 min  | April 13th  |  A   |
+| 6 | Rewrite success criteria initially stated | Have a clearer version of success criteria| 15 min  |  April 13th  | A|
+| 7  | Add table of content  |  Add table of content at the top of the file |20 min| April 15th   |   A  |
+|  8 | Create an ER diagram  |  Have an database structure representation for the social network website | 25 min  |  April 15th |   B  |
+| 9 |  Create first version of SNS user interface welcome screen | Have user interface for the starting screen using CSS and HTML style features  |50 min  |  April 15th |  C   |
+|  10| Create System diagram for SNS | Have a first version of system diagram done and ready to be presented to the client | 30 min  | April 16th  | B |
+| 11|   Create functional registration system and have a first version UI for it  created |  Have a functional registration system for the SNS | 35 min    | April 17th    |C
+|  12 | Create a active password policy check for the login feature  | Have a visual presentation showing if the password policy has been met or not  | 25 min | April 18th    | C
+|  13 | Work on flow diargam for the registration system of the SNS  | Have flow diagram that represnets registration system done  | 35 min  |  April 18th |   B  |
+|  14 |  Work on the user list UI and list information | Redo initial UI for the user list webpage and add city information to the user informations displayed in the list  |  40 min | April 19th  |   C  |
+|   15| Create the second version of the system diagram  |  Create a more accurate version of a system diagram | 20min  | April 19th  | B |
 | 16  |   |   |   |   |     |
-|  17 |   |   |   |   |     |
-| 18  |   |   |   |   |     |
-|  19 |   |   |   |   |     |
+| 17  |   |   |   |   |     |
+|  18 |   |   |   |   |     |
+| 19  |   |   |   |   |     |
 |  20 |   |   |   |   |     |
 |  21 |   |   |   |   |     |
-|   22|   |   |   |   |     |
-|  23 |   |   |   |   |     |
+|  22 |   |   |   |   |     |
+|   23|   |   |   |   |     |
 |   24|   |   |   |   |     |
 |   25|   |   |   |   |     |
 |   26|   |   |   |   |     |
