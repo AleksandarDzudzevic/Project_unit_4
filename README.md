@@ -102,6 +102,7 @@ Fig.8 Shows the flow diagram for the registration system of the Citio social net
 | 1       | Write the Problem Definition| Write a precise problem definition that identifies a problem, consequences of it, and a clear solution that is being proposed    | 25min         | April 7th    | A         |
 | 2  |  Write down design statement | Have a first version of the design statement done  |  10 min | April 9th  |  A   |
 | 3  |  Write down first success criteria established during the first user meeting | Have a first version of success criteria inspired by potential future users. Their opinions and preferences were gathered through a questionire  | 40min  | April 10th  |  A   |
+|4| Write a proposed solution| Propose a solution for the Web application| 15 min| April 11th| A |
 | 5 | Write down rationale for the proposed solution |  Have the firt version of rationale written down  | 45 min  | April 13th  |  A   |
 | 6 | Rewrite success criteria initially stated | Have a clearer version of success criteria| 15 min  |  April 13th  | A|
 | 7  | Add table of content  |  Add table of content at the top of the file |20 min| April 15th   |   A  |
@@ -112,8 +113,8 @@ Fig.8 Shows the flow diagram for the registration system of the Citio social net
 |  12 | Create a active password policy check for the login feature  | Have a visual presentation showing if the password policy has been met or not  | 25 min | April 18th    | C
 |  13 | Work on flow diargam for the registration system of the SNS  | Have flow diagram that represnets registration system done  | 35 min  |  April 18th |   B  |
 |  14 |  Work on the user list UI and list information | Redo initial UI for the user list webpage and add city information to the user informations displayed in the list  |  40 min | April 19th  |   C  |
-|   15| Create the second version of the system diagram  |  Create a more accurate version of a system diagram | 20min  | April 19th  | B |
-| 16  |   |   |   |   |     |
+|   15| Create the second version of the system diagram  |  Create a more accurate version of a system diagram | 20 min  | April 19th  | B |
+| 16  |  Create a questionaire upload client questionaires in the appendix section |  Have two client questionaires uploaded to the appendix | 25 min  | April 20th  |  D  |
 | 17  |   |   |   |   |     |
 |  18 |   |   |   |   |     |
 | 19  |   |   |   |   |     |
