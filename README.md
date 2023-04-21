@@ -73,7 +73,6 @@ I will design a new creative social network that will allow users to share their
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/SystemDiagramPr2_v2.png)
 Fig.3 shows the system diagram of the social network website
 ## Wireframe Diagram
-## Flow Diagram
 ## ER Diagram
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/project_4_er_diagram.png)
 Fig.4 shows database structure of the social network website
@@ -82,6 +81,8 @@ Fig.5 shows user database of the social network website, presented in the ER dia
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/post%20database.png)
 Fig.6 shows post database of social network website, presented in the ER diagram (data provided in the example is not actual data gathered from any of the users.)
 ## UML Diagram
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/Screenshot%202023-04-21%20at%2023.48.39.png)
+Fig. 7 shows the class used for manipulating database, used for the website application 
 ## Flow Diagram
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/project4_flowch1_register.png)
 Fig.8 Shows the flow diagram for the registration system of the Citio social network website
@@ -114,8 +115,8 @@ Fig.8 Shows the flow diagram for the registration system of the Citio social net
 |  14 |  Work on the user list UI and list information | Redo initial UI for the user list webpage and add city information to the user informations displayed in the list  |  40 min | April 19th  |   C  |
 |   15| Create the second version of the system diagram  |  Create a more accurate version of a system diagram | 20 min  | April 19th  | B |
 | 16  |  Create a questionaire upload client questionaires in the appendix section |  Have two client questionaires uploaded to the appendix | 25 min  | April 20th  |  D  |
-| 17  |   |   |   |   |     |
-|  18 |   |   |   |   |     |
+| 17  | Add a base template options menu to all the pages  | Have an options menu containg logout, user list, read articles...  | 30 min  |April 21st   |C     |
+|  18 | Create a UML diagram for the web aplication  | Have a Uml Diagram fimished for the SNS  | 15 min  | April 21st  |  B   |
 | 19  |   |   |   |   |     |
 |  20 |   |   |   |   |     |
 |  21 |   |   |   |   |     |
