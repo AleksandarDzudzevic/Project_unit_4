@@ -40,14 +40,10 @@ Fig.1 shows the picture created for Citio Dream AI[^1] generated on the prompt C
 4.2 [Appendix](#appendix)
 # Criteria A: Planning
 ## Problem Definition
-Being in love with exploring small local shops and restaurants, visiting tourist atractions and everything else that a city has to offer, I have always faced a big challenge of finding them, as they can be hardly found on google maps where only few gain exposure, eliminating smaller local shops and restaurants due to their lack of marketing. Current social network gave these smaller businesses more exposure, but a user has to put great effort to narrow the search only to relevant local places located in their city. If an adequate solution is not presented soon, these smaller businesses will close due to lack of trafic, resulting in market concentration, which in turn would hurt economy and tourism of cities. 
+Being in love with exploring small local shops and restaurants, visiting tourist atractions and everything else that a city has to offer, I have always faced a big challenge of finding them, as they can be hardly found on google maps where only few gain exposure, eliminating smaller local shops and restaurants due to their lack of marketing. Current social network gave these smaller businesses more exposure, but a user has to put great effort to narrow the search only to relevant local places located in their city. If an adequate solution is not presented soon, these smaller businesses will close due to lack of trafic, resulting in market concentration, which in turn would hurt economy and tourism of cities. This problem definition was establish after after doing market testing [(refered to in appendix)](#appendix)
 
 ## Proposed Solution
-To provide more exposure for the local places and prevent them running out of business, after doing market testing [(refered to in appendix)](#appendix) I have decided to make a web applicaton that would serve as a place where people could connect with others through sharing interesting local places, culinary expiriences, astonsihing nature and everything one city has to offer.
-## Design Statement
-I will design a new creative social network that will allow users to share their reviews of the small local places. The development will be done using the software Flask framework in Python, CSS and HTML. It will take around 5 weeks to develop and will be evaluated according to the success criteria stated below by the client.
-
-## Rationale for Proposed Solution
+To provide more exposure for the local places and prevent them running out of business, I have decided to make a web applicaton that would serve as a place where people could connect with others through sharing interesting local places, culinary expiriences and astonsihing nature that one city has to offer.
 
 ### Why Web Application?
 Web applications are more adequate when developing a social network like the one I am making because it allows easier access and sharing of information across multiple devices without the need for downloading and installing an application. Users can simply access the website through a web browser on their desktop or mobile devices. THis increases the potential audience size as makes it easier for users to share their experiences with others. Lastly, a web applications can be maintained easily and can be optimized for search engines, making it easier for new users to discover and join the social network.
@@ -61,6 +57,8 @@ To store the vast amounts of data needed for a social network website, a reliabl
 ### Why HTML?
 HTML is the standard markup language used to create web pages and it provides the structure and content of a website[^7]. Compared to other alternatives such as Flash, HTML is more widely supported, making it a better choice for cross-platform compatibility[^8]. Additionally, HTML is more search engine friendly than other technologies such as JavaScript, which can lead to better search engine rankings[^9].
 
+## Design Statement
+I will design a new creative social network that will allow users to share their reviews of the small local places. The development will be done using the software Flask framework in Python, CSS and HTML. It will take around 5 weeks to develop and will be evaluated according to the success criteria stated below by the client.
 
 ## Success Criteria
 1. The social network website will provide a login and registration system.
