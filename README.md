@@ -40,7 +40,7 @@ Fig.1 shows the picture created for Citio Dream AI[^1] generated on the prompt C
 4.2 [Appendix](#appendix)
 # Criteria A: Planning
 ## Problem Definition
-Being in love with exploring small local shops and restaurants, visiting tourist attractions, and everything else that a city has to offer, I have always faced the big challenge of finding them, as they can be hardly found on google maps where only a few gain exposure, eliminating smaller local shops and restaurants due to their lack of marketing. Current social networks gave these smaller businesses more exposure, but a user has to put great effort to narrow the search only to relevant local places located in their city. If an adequate solution is not presented soon, these smaller businesses will close due to a lack of traffic, resulting in market concentration, which in turn would hurt the economy and tourism of cities. This problem definition was established with the help of the data gathered through questionnaires.(referred to in the appendix)
+Being in love with exploring small local shops and restaurants, visiting tourist attractions, and everything else that a city has to offer, I have always faced the big challenge of finding them, as they can be hardly found on google maps where only a few gain exposure, eliminating smaller local shops and restaurants due to their lack of marketing. Another big problem is not having a place where my friends could see only the recipes I make, so that they could enjoy my exceptional cullinary skills. Current social networks gave these smaller businesses more exposure, but a user has to put great effort to narrow the search only to relevant local places located in their city. If an adequate solution is not presented soon, these smaller businesses will close due to a lack of traffic, resulting in market concentration, which in turn would hurt the economy and tourism of cities. This problem definition was established with the help of the data gathered through questionnaires.(referred to in the appendix)
 
 ## Proposed Solution
 To provide more exposure for the local places and prevent them running out of business, I have decided to make a web applicaton that would serve as a place where people could connect with others through sharing interesting local places, culinary expiriences and astonsihing nature that one city has to offer.
@@ -61,12 +61,12 @@ HTML is the standard markup language used to create web pages and it provides th
 I will design a new creative social network that will allow users to share their reviews of the small local places. The development will be done using the software Flask framework in Python, CSS and HTML. It will take around 5 weeks to develop and will be evaluated according to the success criteria stated below by the client.
 
 ## Success Criteria
-1. The social network website will provide a login and registration system.
-2. The social network website will allow users to post or delete their reviews of the local places, containing title, date, and content.
-3. The social network website will have a feature to display all users and the city about which they post.
-4. The social network website will have an option to choose a city which you are interested in, and see only relevant reviews.
-5. The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile.
-6. The social network website will have an interactive map showing cities that users could choose to write about.
+1. The social network website will provide a login and registration system. [ Another big problem is not having a place where my friends could see only the recipes I make]
+2. The social network website will allow users to post or delete their reviews of the local places, containing title, date, and content. [I have always faced the big challenge of finding them, as they can be hardly found on google maps where only a few gain exposure]
+3. The social network website will have a feature to display all users and the city about which they post. [user has to put great effort to narrow the search only to relevant local places located in their city]
+4. The social network website will have an option to choose a city which you are interested in, and see only relevant reviews. [user has to put great effort to narrow the search only to relevant local places located in their city]
+5. The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile. [where only a few gain exposure, eliminating smaller local shops and restaurants due to their lack of marketing]
+6. The social network website will have an interactive map showing cities which user could explore. [these smaller businesses will close due to a lack of traffic]
 
 # Criteria B: Design
 ## System Diagram
