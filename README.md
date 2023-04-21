@@ -40,7 +40,7 @@ Fig.1 shows the picture created for Citio Dream AI[^1] generated on the prompt C
 4.2 [Appendix](#appendix)
 # Criteria A: Planning
 ## Problem Definition
-Being in love with exploring small local shops and restaurants, visiting tourist atractions and everything else that a city has to offer, I have always faced a big challenge of finding them, as they can be hardly found on google maps where only few gain exposure, eliminating smaller local shops and restaurants due to their lack of marketing. Current social network gave these smaller businesses more exposure, but a user has to put great effort to narrow the search only to relevant local places located in their city. If an adequate solution is not presented soon, these smaller businesses will close due to lack of trafic, resulting in market concentration, which in turn would hurt economy and tourism of cities. This problem definition was established  with the help of the data gathered through questionaires.[(refered to in appendix)](#appendix)
+Being in love with exploring small local shops and restaurants, visiting tourist attractions, and everything else that a city has to offer, I have always faced the big challenge of finding them, as they can be hardly found on google maps where only a few gain exposure, eliminating smaller local shops and restaurants due to their lack of marketing. Current social networks gave these smaller businesses more exposure, but a user has to put great effort to narrow the search only to relevant local places located in their city. If an adequate solution is not presented soon, these smaller businesses will close due to a lack of traffic, resulting in market concentration, which in turn would hurt the economy and tourism of cities. This problem definition was established with the help of the data gathered through questionnaires.(referred to in the appendix)
 
 ## Proposed Solution
 To provide more exposure for the local places and prevent them running out of business, I have decided to make a web applicaton that would serve as a place where people could connect with others through sharing interesting local places, culinary expiriences and astonsihing nature that one city has to offer.
@@ -66,7 +66,7 @@ I will design a new creative social network that will allow users to share their
 3. The social network website will have a feature to display all users and the city about which they post.
 4. The social network website will have an option to choose a city which you are interested in, and see only relevant reviews.
 5. The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile.
-6. The scoial network website will have an interactive map showing cities that users could choose to write about.
+6. The social network website will have an interactive map showing cities that users could choose to write about.
 
 # Criteria B: Design
 ## System Diagram
