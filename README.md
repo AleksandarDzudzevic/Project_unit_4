@@ -61,7 +61,8 @@ HTML is the standard markup language used to create web pages and it provides th
 I will design a new creative social network that will allow users to share their reviews of the small local places. The development will be done using the software Flask framework in Python, CSS and HTML. It will take around 5 weeks to develop and will be evaluated according to the success criteria stated below by the client.
 
 ## Success Criteria
-1. The social network website will provide a login and registration system. [ Another big problem is not having a place where my friends could see only the recipes I make]
+1. The social network website will provide a login and registration system. 
+[ Another big problem is not having a place where my friends could see only the recipes I make]
 2. The social network website will allow users to post or delete their reviews of the local places, containing title, date, and content. [I have always faced the big challenge of finding them, as they can be hardly found on google maps where only a few gain exposure]
 3. The social network website will have a feature to display all users and the city about which they post. [user has to put great effort to narrow the search only to relevant local places located in their city]
 4. The social network website will have an option to choose a city which you are interested in, and see only relevant reviews. [user has to put great effort to narrow the search only to relevant local places located in their city]
@@ -117,8 +118,8 @@ Fig.8 Shows the flow diagram for the registration system of the Citio social net
 | 16  |  Create a questionaire upload client questionaires in the appendix section |  Have two client questionaires uploaded to the appendix | 25 min  | April 20th  |  D  |
 | 17  | Add a base template options menu to all the pages  | Have an options menu containg logout, user list, read articles...  | 30 min  |April 21st   |C     |
 |  18 | Create a UML diagram for the web aplication  | Have a Uml Diagram fimished for the SNS  | 15 min  | April 21st  |  B   |
-| 19  |   |   |   |   |     |
-|  20 |   |   |   |   |     |
+| 19  | Update the test plan and add 2nd integration test, testing user list feature of the website  | Have a written test about user list feature  |  10 min | April 22nd  |  B   |
+|  20 | Test Accesing a specific user from the user list feature.  | Update the test plan with integration test relating the fature t check a specific account from the user list  |  15 min | April 22nd  |  B   |
 |  21 |   |   |   |   |     |
 |  22 |   |   |   |   |     |
 |   23|   |   |   |   |     |
