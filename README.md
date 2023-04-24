@@ -93,7 +93,7 @@ Fig.8 Shows the flow diagram for the registration system of the Citio social net
 |1|Account registration system|Unit testing|Have a fully functional registration system that checks if the proper values are inputed in the email and password fields|(1) Run Project_4.py (2) Click the register button on the login screen (3) Input data on all the fields (4) After filling in all the fields create an account (5) Try to login with the new account too see if it exists now| After following the procedure, a user should be able to login using the credentials of the newly created account|
 |2|User list inspecting |Unit testing| be able to access the user list and see all the registered users and their username and the city which they post about.|(1)Run Project_4.py(2)Login using adequate credentials. (3)Choose the "see all users" option from the navigation bar.(4)Check if the redirected page shows a table containing: id,username, and city for each user| User is able to access the user list from the main menu and will be able to see all the citio users| 
 |3|Accesing a specific user's post from the user list|Integration testing| Access a specific post uploaded by a user chosen from the user list|(1)Run Project_4.py(2)Login using adequate credentials. (3)Choose the "see all users" option from the navigation bar. (4) Choose a desired user and click on its nickname to get redirected to his profile. (5)Click on one of his posts and see if you are successfully redirected to a page to read it.| A user can choose read a specific post from a creator that he is interested |
-|4|Uploading a post after logging in |Integration testing| | | |
+|4|Finding a specific user through filter options in the user table|Integration testing|Find a userthrough username search or by choosing a specific city of interest |(1)Run Project_4.py(2)Login using adequate credentials. (3)Choose the "see all users" option from the navigation bar. (4) Choose a city and see if only users from that city appear in the user table. (5) Now type a certain username or a part of it and see if only adequate users appear | Both filter function work and are properly integrated with the user table database and main menu|
 |5|Code practices around html and css |Code Review| | | | 
 |6| Commenting on complexed code practices |Code Review| | | |
 
@@ -121,10 +121,10 @@ Fig.8 Shows the flow diagram for the registration system of the Citio social net
 | 19  | Update the test plan and add 2nd integration test, testing user list feature of the website  | Have a written test about user list feature  |  10 min | April 22nd  |  B   |
 |20   | Test accesing the user list from the main menu page  | Allow registered user to acces the table containing users of citio| 15 min  |  April 22 | B    |
 |  21 | Test Accesing a specific user from the user list feature.  | Update the test plan with integration test relating the feature that check a specific account from the user list  |  15 min | April 22nd  |  B   |
-|  22 |  Crreating new UI for the register, login, and home page of the website | Have more modern UI for the mentioned pages   | 40 min  | April 24th  |   C  |
-|   23|   |   |   |   |     |
-|   24|   |   |   |   |     |
-|   25|   |   |   |   |     |
+|  22 |  Creating new UI for the register, login, and home page of the website | Have more modern UI for the mentioned pages   | 40 min  | April 24th  |   C  |
+|   23| Add a filter by city option for the user table  |  Have a functioning feature to select the city of interest and see only relevant content creators | 20 min |  April 24th |  C   |
+|   24| Add a search bar option for the user table | Have a functioning username search abr that will allow searching for a desried user/s fromthe user table  | 40 min  | April 24th  |  C   |
+|   25| Do intehration testing on the newly added filter options and the user list display option  | See if all filter options work properly  | 10 min  | April 24th  |  B   |
 |   26|   |   |   |   |     |
 |   27|   |   |   |   |     |
 |   28|   |   |   |   |     |
