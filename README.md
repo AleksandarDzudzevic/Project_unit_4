@@ -67,7 +67,7 @@ I will design a new creative social network that will allow users to share their
 3. The social network website will have a feature to display all users and the city about which they post. [user has to put great effort to narrow the search only to relevant local places located in their city]
 4. The social network website will have an option to choose a city which you are interested in, and see only relevant reviews. [user has to put great effort to narrow the search only to relevant local places located in their city]
 5. The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile. [where only a few gain exposure, eliminating smaller local shops and restaurants due to their lack of marketing]
-6. The social network website will have an interactive map showing cities which user could explore. [these smaller businesses will close due to a lack of traffic]
+6. The social network website will have an interactive option display showing cities which user could explore, with an option to leran bout each one, by simply clicking at the picture of it. [these smaller businesses will close due to a lack of traffic]
 
 # Criteria B: Design
 ## System Diagram
@@ -92,8 +92,8 @@ Fig.8 Shows the flow diagram for the registration system of the Citio social net
 |-----------|-----------|--------|-----------|-----------------|----|
 |1|Account registration system|Unit testing|Have a fully functional registration system that checks if the proper values are inputed in the email and password fields|(1) Run Project_4.py (2) Click the register button on the login screen (3) Input data on all the fields (4) After filling in all the fields create an account (5) Try to login with the new account too see if it exists now| After following the procedure, a user should be able to login using the credentials of the newly created account|
 |2|User list inspecting |Unit testing| be able to access the user list and see all the registered users and their username and the city which they post about.|(1)Run Project_4.py(2)Login using adequate credentials. (3)Choose the "see all users" option from the navigation bar.(4)Check if the redirected page shows a table containing: id,username, and city for each user| User is able to access the user list from the main menu and will be able to see all the citio users| 
-|3|Accesing a specific user from the user list|Integration testing| From user list->specific user profile| | |
-|4|Creating a post and reading the newly created post |Integration testing| | | |
+|3|Accesing a specific user's post from the user list|Integration testing| Access a specific post uploaded by a user chosen from the user list|(1)Run Project_4.py(2)Login using adequate credentials. (3)Choose the "see all users" option from the navigation bar. (4) Choose a desired user and click on its nickname to get redirected to his profile. (5)Click on one of his posts and see if you are successfully redirected to a page to read it.| A user can choose read a specific post from a creator that he is interested |
+|4|Uploading a post after logging in |Integration testing| | | |
 |5|Code practices around html and css |Code Review| | | | 
 |6| Commenting on complexed code practices |Code Review| | | |
 
@@ -121,7 +121,7 @@ Fig.8 Shows the flow diagram for the registration system of the Citio social net
 | 19  | Update the test plan and add 2nd integration test, testing user list feature of the website  | Have a written test about user list feature  |  10 min | April 22nd  |  B   |
 |20   | Test accesing the user list from the main menu page  | Allow registered user to acces the table containing users of citio| 15 min  |  April 22 | B    |
 |  21 | Test Accesing a specific user from the user list feature.  | Update the test plan with integration test relating the feature that check a specific account from the user list  |  15 min | April 22nd  |  B   |
-|  22 |   |   |   |   |     |
+|  22 |  Crreating new UI for the register, login, and home page of the website | Have more modern UI for the mentioned pages   | 40 min  | April 24th  |   C  |
 |   23|   |   |   |   |     |
 |   24|   |   |   |   |     |
 |   25|   |   |   |   |     |
