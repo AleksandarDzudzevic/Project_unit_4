@@ -91,7 +91,7 @@ Fig.8 Shows the flow diagram for the registration system of the Citio social net
 |Test Number|Description|Test Type| Target|Procedure|Expected Outcome|
 |-----------|-----------|--------|-----------|-----------------|----|
 |1|Account registration system|Unit testing|Have a fully functional registration system that checks if the proper values are inputed in the email and password fields|(1) Run Project_4.py (2) Click the register button on the login screen (3) Input data on all the fields (4) After filling in all the fields create an account (5) Try to login with the new account too see if it exists now| After following the procedure, a user should be able to login using the credentials of the newly created account|
-|2|User list inspecting |Unit testing| Access user list and see if the list is visible | | | 
+|2|User list inspecting |Unit testing| be able to access the user list and see all the registered users and their username and the city which they post about.|(1)Run Project_4.py(2)Login using adequate credentials. (3)Choose the "see all users" option from the navigation bar.(4)Check if the redirected page shows a table containing: id,username, and city for each user| User is able to access the user list from the main menu and will be able to see all the citio users| 
 |3|Accesing a specific user from the user list|Integration testing| From user list->specific user profile| | |
 |4|Creating a post and reading the newly created post |Integration testing| | | |
 |5|Code practices around html and css |Code Review| | | | 
@@ -119,8 +119,8 @@ Fig.8 Shows the flow diagram for the registration system of the Citio social net
 | 17  | Add a base template options menu to all the pages  | Have an options menu containg logout, user list, read articles...  | 30 min  |April 21st   |C     |
 |  18 | Create a UML diagram for the web aplication  | Have a Uml Diagram fimished for the SNS  | 15 min  | April 21st  |  B   |
 | 19  | Update the test plan and add 2nd integration test, testing user list feature of the website  | Have a written test about user list feature  |  10 min | April 22nd  |  B   |
-|  20 | Test Accesing a specific user from the user list feature.  | Update the test plan with integration test relating the fature t check a specific account from the user list  |  15 min | April 22nd  |  B   |
-|  21 |   |   |   |   |     |
+|20   | Test accesing the user list from the main menu page  | Allow registered user to acces the table containing users of citio| 15 min  |  April 22 | B    |
+|  21 | Test Accesing a specific user from the user list feature.  | Update the test plan with integration test relating the feature that check a specific account from the user list  |  15 min | April 22nd  |  B   |
 |  22 |   |   |   |   |     |
 |   23|   |   |   |   |     |
 |   24|   |   |   |   |     |
