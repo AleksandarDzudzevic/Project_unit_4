@@ -125,10 +125,10 @@ Fig.8 Shows the flow diagram for the registration system of the Citio social net
 |   23| Add a filter by city option for the user table  |  Have a functioning feature to select the city of interest and see only relevant content creators | 20 min |  April 24th |  C   |
 |   24| Add a search bar option for the user table | Have a functioning username search abr that will allow searching for a desried user/s fromthe user table  | 40 min  | April 24th  |  C   |
 |   25| Do intehration testing on the newly added filter options and the user list display option  | See if all filter options work properly  | 10 min  | April 24th  |  B   |
-|   26|   |   |   |   |     |
-|   27|   |   |   |   |     |
-|   28|   |   |   |   |     |
-|  29 |   |   |   |   |     |
+|   26| Add a access token to the website  |  Secure that users can not access the website options unless they are logged in | 35 min  |April 25th |C  |     
+|   27|  Crate a feature to allow users to explore and learn about cities provided in Citio application | Have an option to learn about cities offered in Citio by clicking at the picture of them  | 1h  | April 26th  |  C  |
+|   28|  Create a flow diagram for the the user profile page|Visually present the feature of viewing a specific profile thrrough a flow diagram   | 35 min  | April 26th  |   B  |
+|  29 |  Write down the development proccess of fullfilling the success criteria 1 (login/register) |  Show the development process and computetional thinking behind the login / register options | 40 min  | April 26th  |  C   |
 |  30 |   |   |   |   |     |
 |  31 |   |   |   |   |     |
 |  32 |   |   |   |   |     |
