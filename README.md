@@ -119,12 +119,12 @@ Fig.8 Shows the flow diagram for the registration system of the Citio social net
 | 17  | Add a base template options menu to all the pages  | Have an options menu containg logout, user list, read articles...  | 30 min  |April 21st   |C     |
 |  18 | Create a UML diagram for the web aplication  | Have a Uml Diagram fimished for the SNS  | 15 min  | April 21st  |  B   |
 | 19  | Update the test plan and add 2nd integration test, testing user list feature of the website  | Have a written test about user list feature  |  10 min | April 22nd  |  B   |
-|20   | Test accesing the user list from the main menu page  | Allow registered user to acces the table containing users of citio| 15 min  |  April 22 | B    |
+|20   | Test accesing the user list from the main menu page  | Update the test plan with integration test relating allowing registered user to acces the table containing users of citio| 15 min  |  April 22 | B    |
 |  21 | Test Accesing a specific user from the user list feature.  | Update the test plan with integration test relating the feature that check a specific account from the user list  |  15 min | April 22nd  |  B   |
 |  22 |  Creating new UI for the register, login, and home page of the website | Have more modern UI for the mentioned pages   | 40 min  | April 24th  |   C  |
 |   23| Add a filter by city option for the user table  |  Have a functioning feature to select the city of interest and see only relevant content creators | 20 min |  April 24th |  C   |
 |   24| Add a search bar option for the user table | Have a functioning username search abr that will allow searching for a desried user/s fromthe user table  | 40 min  | April 24th  |  C   |
-|   25| Do intehration testing on the newly added filter options and the user list display option  | See if all filter options work properly  | 10 min  | April 24th  |  B   |
+|   25| Do integration testing on the newly added filter options and the user list display option  | See if all filter options work properly  | 10 min  | April 24th  |  B   |
 |   26| Add a access token to the website  |  Secure that users can not access the website options unless they are logged in | 35 min  |April 25th |C  |     
 |   27|  Crate a feature to allow users to explore and learn about cities provided in Citio application | Have an option to learn about cities offered in Citio by clicking at the picture of them  | 1h  | April 26th  |  C  |
 |   28|  Create a flow diagram for the the user profile page|Visually present the feature of viewing a specific profile thrrough a flow diagram   | 35 min  | April 26th  |   B  |
