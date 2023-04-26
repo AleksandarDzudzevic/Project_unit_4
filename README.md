@@ -107,9 +107,9 @@ Fig.9 Shows a flow diagram representing the feature that allows to view a specif
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Write the Problem Definition| Write a precise problem definition that identifies a problem, consequences of it, and a clear solution that is being proposed    | 25min         | April 7th    | A         |
-| 2  |  Write down design statement | Have a first version of the design statement done  |  10 min | April 9th  |  A   |
-| 3  |  Write down first success criteria established during the first user meeting | Have a first version of success criteria inspired by potential future users. Their opinions and preferences were gathered through a questionire  | 40min  | April 10th  |  A   |
+| 1       | Write the Problem Definition **Plan**| Write a precise problem definition that identifies a problem, consequences of it, and a clear solution that is being proposed    | 25min         | April 7th    | A         |
+| 2  |  Write down design statement **Plan**| Have a first version of the design statement done  |  10 min | April 9th  |  A   |
+| 3  |  Write down first success criteria established during the first user meeting **Plan**| Have a first version of success criteria inspired by potential future users. Their opinions and preferences were gathered through a questionire  | 40min  | April 10th  |  A   |
 |4| Write a proposed solution| Propose a solution for the Web application| 15 min| April 11th| A |
 | 5 | Write down rationale for the proposed solution |  Have the firt version of rationale written down  | 45 min  | April 13th  |  A   |
 | 6 | Rewrite success criteria initially stated | Have a clearer version of success criteria| 15 min  |  April 13th  | A|
