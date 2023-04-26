@@ -75,7 +75,7 @@ I will design a new creative social network that will allow users to share their
 Fig.3 shows the system diagram of the social network website
 ## Wireframe Diagram
 ## ER Diagram
-![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/project_4_er_diagram.png)
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/er%20diagram%20project%204%20final.png)
 Fig.4 shows database structure of the social network website
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/user%20databse.png)
 Fig.5 shows user database of the social network website, presented in the ER diagram (data provided in the example is not actual data gathered from any of the users.)
@@ -131,7 +131,7 @@ Fig.9 Shows a flow diagram representing the feature that allows to view a specif
 |   27|  Crate a feature to allow users to explore and learn about cities provided in Citio application | Have an option to learn about cities offered in Citio by clicking at the picture of them  | 1h 45 min | April 26th  |  C  |
 |   28|  Create a flow diagram for the the user profile page|Visually present the feature of viewing a specific profile thrrough a flow diagram   | 45 min  | April 26th  |   B  |
 |  29 |  Write down the development proccess of fullfilling the success criteria 1 (login/register) |  Show the development process and computetional thinking behind the login / register options | 40 min  | April 26th  |  C   |
-|  30 |   |   |   |   |     |
+|  30 | Create a final version of the ER diagram that incldues new city informations in the database  |  A new ER diagram shows most recent databse structure adequatelly |  10 min | April 26th  |   B  |
 |  31 |   |   |   |   |     |
 |  32 |   |   |   |   |     |
 
