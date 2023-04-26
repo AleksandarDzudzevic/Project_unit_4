@@ -119,7 +119,7 @@ Fig.9 Shows a flow diagram representing the feature that allows to view a specif
 |  10| Create System diagram for SNS | Have a first version of system diagram done and ready to be presented to the client | 30 min  | April 16th  | B |
 | 11|   Create functional registration system and have a first version UI for it  created |  Have a functional registration system for the SNS | 35 min    | April 17th    |C
 |  12 | Create a active password policy check for the login feature  | Have a visual presentation showing if the password policy has been met or not  | 25 min | April 18th    | C
-|  13 | Work on flow diargam for the registration system of the SNS  | Have flow diagram that represnets registration system done  | 35 min  |  April 18th |   B  |
+|  13 | Work on flow diargam for the registration system of the SNS and the users list of the SNS  | Have flow diagram that represnets registration system and the user list done  | 55 min  |  April 18th |   B  |
 |  14 |  Work on the user list UI and list information | Redo initial UI for the user list webpage and add city information to the user informations displayed in the list  |  40 min | April 19th  |   C  |
 |   15| Create the second version of the system diagram  |  Create a more accurate version of a system diagram | 20 min  | April 19th  | B |
 | 16  |  Create a questionaire upload client questionaires in the appendix section |  Have two client questionaires uploaded to the appendix | 25 min  | April 20th  |  D  |
