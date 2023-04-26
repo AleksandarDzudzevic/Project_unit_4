@@ -133,6 +133,7 @@ Fig.9 Shows a flow diagram representing the feature that allows to view a specif
 |  29 |  Write down the development proccess of fullfilling the success criteria 1 (login/register) |  Show the development process and computetional thinking behind the login / register options | 40 min  | April 26th  |  C   |
 |  30 | Create a final version of the ER diagram that incldues new city informations in the database  |  A new ER diagram shows most recent databse structure adequatelly |  10 min | April 26th  |   B  |
 |  31 | Create a city database   | Have a database that conntains names, pcitures, desctiptions, fun facts. about cities from Citio  |  25min | April 26th  |   C  |
+|  32 | Create a city database   | Have a database that contains names, pcitures, desctiptions, fun facts. about cities from Citio  |  25min | April 26th  |   C  |
 |  32 |   |   |   |   |     |
 
 # Criteria C: Development
