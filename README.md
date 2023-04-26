@@ -40,7 +40,7 @@ Fig.1 shows the picture created for Citio Dream AI[^1] generated on the prompt C
 4.2 [Appendix](#appendix)
 # Criteria A: Planning
 ## Problem Definition
-Being in love with exploring small local shops and restaurants, visiting tourist attractions, and everything else that a city has to offer, I have always faced the big challenge of finding them, as they can be hardly found on google maps where only a few gain exposure, eliminating smaller local shops and restaurants due to their lack of marketing. Another big problem is not having a place where my friends could see only the recipes I make, so that they could enjoy my exceptional cullinary skills. Current social networks gave these smaller businesses more exposure, but a user has to put great effort to narrow the search only to relevant local places located in their city, and can not find specific creators located in their city. If an adequate solution is not presented soon, these smaller businesses will close due to a lack of traffic, resulting in market concentration, which in turn would hurt the economy and tourism of cities. This problem definition was established with the help of the data gathered through questionnaires.(referred to in the appendix)
+Being in love with exploring small local shops and restaurants, visiting tourist attractions, and everything else that a city has to offer, I have always faced the big challenge of finding them, as they can be hardly found on google maps where only a few places and creators gain exposure, eliminating smaller local shops and restaurants due to their lack of marketing. Another big problem is not having a place where my friends could see only the recipes I upload, so that they could enjoy my exceptional cullinary skills. Current social networks gave these smaller businesses more exposure, but a user has to put great effort to narrow the search only to relevant local places and creators located in their city, and can not find specific creators located in their city. If an adequate solution is not presented soon, these smaller businesses will close due to a lack of traffic, resulting in market concentration, which in turn would hurt the economy and tourism of cities. This problem definition was established with the help of the data gathered through questionnaires.(referred to in the appendix)
 
 ## Proposed Solution
 To provide more exposure for the local places and prevent them running out of business, I have decided to make a web applicaton that would serve as a place where people could connect with others through sharing interesting local places, culinary expiriences and astonsihing nature that one city has to offer.
@@ -62,12 +62,17 @@ I will design a new creative social network that will allow users to share their
 
 ## Success Criteria
 1. The social network website will provide a login and registration system. 
-[ Another big problem is not having a place where my friends could see only the recipes I make]
-2. The social network website will allow users to post or delete their reviews of the local places, containing title, date, and content. [I have always faced the big challenge of finding them, as they can be hardly found on google maps where only a few gain exposure]
-3. The social network website will have a feature to display all users and the city about which they post. [user has to put great effort to narrow the search only to relevant local places located in their city]
-4. The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators. [user has to put great effort to narrow the search only to relevant local places located in their city and can not find specific creators located in their city.]
-5. The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile. [where only a few gain exposure, eliminating smaller local shops and restaurants due to their lack of marketing]
-6. The social network website will have an interactive option display available cities which user could explore, with an option to learn about each one, by simply clicking at the picture of it. [these smaller businesses will close due to a lack of traffic]
+>[ Another big problem is not having a place where my friends could see only the recipes I upload]
+2. The social network website will allow users to post reviews of the local places, containing title, date, and content. 
+>[I have always faced the big challenge of finding them, as they can be hardly found on google maps where only a few gain exposure]
+3. The social network website will have a feature to display all users and the city about which they post. 
+>[user has to put great effort to narrow the search only to relevant local places and creators located in their city]
+4. The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators. 
+>[user has to put great effort to narrow the search only to relevant local places located in their city and can not find specific creators located in their city.]
+5. The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile. 
+>[where only a few palces and creators gain exposure, eliminating smaller local shops and restaurants due to their lack of marketing]
+6. The social network website will have an interactive option display available cities which user could explore, with an option to learn about each one, by simply clicking at the picture of it. 
+>[ a specific city which you are interested in & these smaller businesses will close due to a lack of traffic]
 
 # Criteria B: Design
 ## System Diagram
@@ -96,7 +101,7 @@ Fig.9 Shows a flow diagram representing the feature that allows to view a specif
 |2|User list inspecting |Unit testing| be able to access the user list and see all the registered users and their username and the city which they post about.|(1)Run Project_4.py(2)Login using adequate credentials. (3)Choose the "see all users" option from the navigation bar.(4)Check if the redirected page shows a table containing: id,username, and city for each user| User is able to access the user list from the main menu and will be able to see all the citio users| 
 |3|Accesing a specific user's profile from the user list|Integration testing| Access a specific user's profile  by choosing it from the user list|(1)Run Project_4.py(2)Login using adequate credentials. (3)Choose the "see all users" option from the navigation bar. (4) Choose a desired user and click on its nickname to get redirected to his profile. (5) Check if his profile and posts  (if there are any) are displayed successfully| A user can choose to view a specific creator profile that he is interested in.|
 |4|Finding a specific user through filter options in the user table|Integration testing|Find a user through username search or by choosing a specific city of interest |(1)Run Project_4.py(2)Login using adequate credentials. (3)Choose the "see all users" option from the navigation bar. (4) Choose a city and see if only users from that city appear in the user table. (5) Now type a certain username or a part of it and see if only adequate users appear | Both filter function work and are properly integrated with the user table database and main menu|
-|5|Code practices around html and css |Code Review| | | | 
+|5|Code practices around html and python, regarding usage of loops and their nesting  |Code Review| Replace repeating funcitons and features using better coding practices by using loops, and make the code more efficient by nesting loops.|(1) Review Project_4.py python code and html code t see any repetitive parts. (2) Create an algortihm that would replace the repetitive part using loops and nesting them if neccesary. (3) Replace the old repetitive code and connect new algorithm and html code to the main SNS code | The code now uses loops for the profile accessing, and for the learn about city feature.| 
 |6| Commenting on complexed code practices |Code Review| | | |
 
 ## Record of Tasks
@@ -138,11 +143,27 @@ Fig.9 Shows a flow diagram representing the feature that allows to view a specif
 
 # Criteria C: Development
 ## Tools and techniques used
-No definition!  
+
 ## Sources
+“Beautiful CSS Buttons Examples - CSS Scan.” 92 Beautiful CSS Buttons Examples - CSS Scan, https://getcssscan.com/css-buttons-examples. 
+“Flask HTTP Methods, Handle GET &amp; Post Requests.” GeeksforGeeks, GeeksforGeeks, 2 Feb. 2023, https://www.geeksforgeeks.org/flask-http-methods-handle-get-post-requests/. 
+“Cirrus CSS.” Cirrus, https://www.cirrus-ui.com/buttons/basics. 
+Auth0. “JSON Web Tokens.” Auth0 Docs, https://auth0.com/docs/secure/tokens/json-web-tokens. 
 
 ## Development
 Explain how I was challenged and how I solved with explaining the lines of codes.
+
+### 1. The social network website will provide a login and registration system. 
+#### Login System
+#### Regsitration System
+### 2. The social network website will allow users to post reviews of the local places, containing title, date, and content. 
+
+### 3. The social network website will have a feature to display all users and the city about which they post. 
+### 4. The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators. 
+### 5. The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile. 
+### 6. The social network website will have an interactive option display available cities which user could explore, with an option to learn about each one, by simply clicking at the picture of it. 
+
+
 
 # Criteria D: Functionality
 ## Video showcase
