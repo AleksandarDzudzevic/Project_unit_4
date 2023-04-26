@@ -75,7 +75,7 @@ I will design a new creative social network that will allow users to share their
 Fig.3 shows the system diagram of the social network website
 ## Wireframe Diagram
 ## ER Diagram
-![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/er%20diagram%20project%204%20final.png)
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/er%20diagram%20final%20project%204.png)
 Fig.4 shows database structure of the social network website
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/user%20databse.png)
 Fig.5 shows user database of the social network website, presented in the ER diagram (data provided in the example is not actual data gathered from any of the users.)
