@@ -102,7 +102,7 @@ Fig.9 Shows a flow diagram representing the feature that allows to view a specif
 |3|Accesing a specific user's profile from the user list|Integration testing| Access a specific user's profile  by choosing it from the user list|(1)Run Project_4.py(2)Login using adequate credentials. (3)Choose the "see all users" option from the navigation bar. (4) Choose a desired user and click on its nickname to get redirected to his profile. (5) Check if his profile and posts  (if there are any) are displayed successfully| A user can choose to view a specific creator profile that he is interested in.|
 |4|Finding a specific user through filter options in the user table|Integration testing|Find a user through username search or by choosing a specific city of interest |(1)Run Project_4.py(2)Login using adequate credentials. (3)Choose the "see all users" option from the navigation bar. (4) Choose a city and see if only users from that city appear in the user table. (5) Now type a certain username or a part of it and see if only adequate users appear | Both filter function work and are properly integrated with the user table database and main menu|
 |5|Code practices around html and python, regarding usage of loops and their nesting  |Code Review| Replace repeating funcitons and features using better coding practices by using loops, and make the code more efficient by nesting loops.|(1) Review Project_4.py python code and html code t see any repetitive parts. (2) Create an algortihm that would replace the repetitive part using loops and nesting them if neccesary. (3) Replace the old repetitive code and connect new algorithm and html code to the main SNS code | The code now uses loops for the profile accessing, and for the learn about city feature.| 
-|6| Commenting on complexed code practices |Code Review| | | |
+|6| Commenting on complexed code practices |Code Review| Adding comments that would explain the usage of more complex programming tools and algorithms to help future potential developers| (1) Review the python Project_4.py code and focus on the mkore complexed algortihms and routes that have a unique features (2) Add a comment explaining their usage and function in the code| The code is easier to understand and is more open for future co-development|
 
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
@@ -139,16 +139,17 @@ Fig.9 Shows a flow diagram representing the feature that allows to view a specif
 |  30 | Create a final version of the ER diagram that incldues new city informations in the database  |  A new ER diagram shows most recent databse structure adequatelly |  10 min | April 26th  |   B  |
 |  31 | Create a city database   | Have a database that conntains names, pcitures, desctiptions, fun facts. about cities from Citio  |  25min | April 26th  |   C  |
 |  32 | Create a city database   | Have a database that contains names, pcitures, desctiptions, fun facts. about cities from Citio  |  25min | April 26th  |   C  |
-|  32 |   |   |   |   |     |
+|  32 | Run code review testing for potential loops and loop nesting and see if any complex algorithms used need a comment to explain them to potential co-developers  | Have a more efficient code of higher quality and better coding practices that would make future co-development easier  | 25 min   | April 26th  |  B   |
 
 # Criteria C: Development
 ## Tools and techniques used
 
 ## Sources
-“Beautiful CSS Buttons Examples - CSS Scan.” 92 Beautiful CSS Buttons Examples - CSS Scan, https://getcssscan.com/css-buttons-examples. 
-“Flask HTTP Methods, Handle GET &amp; Post Requests.” GeeksforGeeks, GeeksforGeeks, 2 Feb. 2023, https://www.geeksforgeeks.org/flask-http-methods-handle-get-post-requests/. 
-“Cirrus CSS.” Cirrus, https://www.cirrus-ui.com/buttons/basics. 
-Auth0. “JSON Web Tokens.” Auth0 Docs, https://auth0.com/docs/secure/tokens/json-web-tokens. 
+1. “Beautiful CSS Buttons Examples - CSS Scan.” 92 Beautiful CSS Buttons Examples - CSS Scan, https://getcssscan.com/css-buttons-examples. 
+2. “Flask HTTP Methods, Handle GET &amp; Post Requests.” GeeksforGeeks, GeeksforGeeks, 2 Feb. 2023, https://www.geeksforgeeks.org/flask-http-methods-handle-get-post-requests/. 
+3. “Cirrus CSS.” Cirrus, https://www.cirrus-ui.com/buttons/basics. 
+4. Auth0. “JSON Web Tokens.” Auth0 Docs, https://auth0.com/docs/secure/tokens/json-web-tokens. 
+5. “How to - Search Bar.” How To Create a Search Bar, https://www.w3schools.com/howto/howto_css_searchbar.asp. 
 
 ## Development
 Explain how I was challenged and how I solved with explaining the lines of codes.
