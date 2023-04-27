@@ -241,10 +241,59 @@ def register():
 
 ```
 ### 3. The social network website will have a feature to display all users and the city about which they post. 
+```.py
+@app.route('/users')
+@token_required
+```
+```.py
+def users():
+    # Checks if the user is authenticated by checking if the user.id cookie exists
+    if request.cookies.get('user.id'):
+        db = database_worker("social_net.db") # Creates a database worker object to perform SQL queries on the "social_net.db" database
+        all_users = db.search("SELECT * FROM users")# Selects all users from the "users" table
+        db.close()# Closes the database connection
+        
+```
 ### 4. The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators. 
+```.py
+city = request.args.get('city')# Gets the city chosen from the option bar (if any)
+        search_query = request.args.get('search_query')
+        # Filters the list of all_users to only include those that contain the search query (case insensitive)
+        # if a search query is provided through the search bar filter
+        if search_query:
+            all_users = [user for user in all_users if search_query.lower() in user[4].lower()]
+        return render_template("user.html", users = all_users, city = city)
+    else:
+        return redirect("login")
+```
 ### 5. The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile. 
-### 6. The social network website will have an interactive option display available cities which user could explore, with an option to learn about each one, by simply clicking at the picture of it. 
+```.py
+      users, posts = None, None
+        user = db.search(f"SELECT * from users where id={user_id}")
+        if user:
+            posts = db.search(f"select * from posts where user_id={user_id}")
+            user = user[0]  # remember search returns a list (should be one user so...
 
+        return render_template("profile.html", user = user, posts = posts, current_user_id=int(current_user_id))
+```
+### 6. The social network website will have an interactive option display available cities which user could explore, with an option to learn about each one, by simply clicking at the picture of it. 
+```.py
+@app.route('/cities', methods=["GET", "POST"])
+@token_required
+def cities():
+    db = database_worker("social_net.db")
+    all_cities = db.search("select * from cities")
+    return render_template("cities.html", cities=all_cities)
+
+```
+```.py
+@app.route("/city/<city_name>")
+def get_city(city_name):
+    db = database_worker("social_net.db")
+    city_data = db.search(f"select * from cities where name='{city_name}'")
+    return render_template("city.html", city=city_data[0])
+
+```
 
 
 # Criteria D: Functionality
