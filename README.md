@@ -61,7 +61,7 @@ HTML is the standard markup language used to create web pages and it provides th
 I will design a new creative social network that will allow users to share their reviews of the small local places. The development will be done using the software Flask framework in Python, CSS and HTML. It will take around 5 weeks to develop and will be evaluated according to the success criteria stated below by the client.
 
 ## Success Criteria
-1. The social network website will provide a login and registration system. 
+1. The social network website will provide a secure login and registration system. 
 >[ Another big problem is not having a place where my friends could see only the recipes I upload]
 2. The social network website will allow users to post reviews of the local places, containing title, date, and content. 
 >[I have always faced the big challenge of finding them, as they can be hardly found on google maps where only a few gain exposure]
@@ -141,7 +141,7 @@ Fig.10 Shows a flow diagram representing the feature that allows to view a speci
 |  30 | Create a final version of the ER diagram that incldues new city informations in the database |Design |  A new ER diagram shows most recent databse structure adequatelly |  10 min | April 26th  |   B  |
 |  31 | Create a city database |Development  | Have a database that conntains names, pcitures, desctiptions, fun facts. about cities from Citio  |  25min | April 26th  |   C  |
 |  32 | Run code review testing for potential loops and loop nesting and see if any complex algorithms used need a comment to explain them to potential co-developers |Testing | Have a more efficient code of higher quality and better coding practices that would make future co-development easier  | 25 min   | April 26th  |  B   |
-| 33|Add a delete account option to the SNS |Development | Be able t delete your account| 15 min| April 28th|C |
+| 33|Add a delete account option to the SNS |Development | Be able to delete your account| 15 min| April 28th|C |
 | | | | | | | |
 | | | | | | | |
 | | | | | | | |
@@ -161,7 +161,8 @@ Fig.10 Shows a flow diagram representing the feature that allows to view a speci
 ## Development
 Explain how I was challenged and how I solved with explaining the lines of codes.
 
-### 1. The social network website will provide a login and registration system. 
+### 1. The social network website will provide a  secure login and registration system. 
+#### Password encryption
 #### Login System
 #### Regsitration System
 ### 2. The social network website will allow users to post reviews of the local places, containing title, date, and content. 
