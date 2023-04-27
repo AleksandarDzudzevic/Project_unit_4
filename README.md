@@ -77,8 +77,10 @@ I will design a new creative social network that will allow users to share their
 # Criteria B: Design
 ## System Diagram
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/SystemDiagramPr2_v2.png)
-Fig.3 shows the system diagram of the social network website
+Fig.2 shows the system diagram of the social network website
 ## Wireframe Diagram
+![]()
+Fig.3 Shows the wireframe diagram of the Social network website.
 ## ER Diagram
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/erDiagramProject4Final.png)
 Fig.4 shows database structure of the social network website
@@ -163,10 +165,81 @@ Explain how I was challenged and how I solved with explaining the lines of codes
 
 ### 1. The social network website will provide a  secure login and registration system. 
 #### Password encryption
-#### Login System
-#### Regsitration System
-### 2. The social network website will allow users to post reviews of the local places, containing title, date, and content. 
+```.py
+from passlib.context import CryptContext
 
+pwd_config = CryptContext(schemes = ["pbkdf2_sha256"],
+                          default = "pbkdf2_sha256",
+                          pbkdf2_sha256__default_rounds = 30000
+                          )
+```
+```.py
+# this function receives unsafe password and returns the hashed password
+
+def encrypt_password(user_passowrd):
+    return pwd_config.encrypt(user_passowrd)
+
+```
+#### Regsitration System
+```.py
+def register():
+    if request.method == 'POST':
+        email = request.form['email']
+        password = request.form['password']
+        city = request.form['city']
+        username = request.form['username']
+        # Generate hashed password
+        hashed_password = encrypt_password(password)
+        # Insert user data into database
+        conn = sqlite3.connect('social_net.db')
+        c = conn.cursor()
+        c.execute("INSERT INTO users (email, password, city, username) VALUES (?, ?, ?, ?)", (email, hashed_password, city, username))
+        conn.commit()
+        conn.close()
+        # Redirect user to login page
+        return redirect(url_for("login"))
+    return render_template('register.html')
+```
+#### Login System
+```.py
+ if request.method == 'POST':
+        email = request.form['email']
+        passwd = request.form['passwd']
+        db = database_worker("social_net.db")
+        user = db.search(f"SELECT * from users where email ='{email}'
+```
+```.py
+ if user:
+            print("passed")
+            user = user[0]  # cause search returns a list
+            id, email_db, hashed, city, uname = user
+            if check_password(hashed_password = hashed, user_password = passwd):
+                response = make_response(redirect(url_for('profile',user_id = id)))
+                response.set_cookie('user.id', f"{id}")
+                token = jwt.encode({'user_id': id, 'exp': datetime.utcnow() + timedelta(minutes=30)}, token_key, algorithm = 'HS256')
+                session['token'] = token
+                return response
+```
+### 2. The social network website will allow users to post reviews of the local places, containing title, date, and content. 
+```.py
+  if request.method == 'POST':
+            title = request.form['title']
+            content = request.form['content']
+            now=datetime.now()
+            today = now.strftime("%d/%m/%Y")
+            if len(title) > 0 and len(content) > 0 and str(user_id) == current_user_id:  # check if the post is being made by the logged in user
+                new_post = f"Insert into posts (title,content,user_id,publish_date) values('{title}','{content}','{user_id}','{today}')"
+                db.run_save(query = new_post)
+                return redirect(url_for('profile', user_id = user_id))
+        users, posts = None, None
+        user = db.search(f"SELECT * from users where id={user_id}")
+        if user:
+            posts = db.search(f"select * from posts where user_id={user_id}")
+            user = user[0]  # remember search returns a list (should be one user so...
+
+        return render_template("profile.html", user = user, posts = posts, current_user_id=int(current_user_id))
+
+```
 ### 3. The social network website will have a feature to display all users and the city about which they post. 
 ### 4. The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators. 
 ### 5. The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile. 
