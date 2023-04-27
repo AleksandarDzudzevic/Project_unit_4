@@ -152,6 +152,17 @@ Fig.10 Shows a flow diagram representing the feature that allows to view a speci
 
 # Criteria C: Development
 ## Tools and techniques used
+1. Manipulating SQLite Database
+2. Variables
+3. For loops
+4. If statements
+5. Functions
+6. Password Hashing
+7. Nesting loops
+8. HTML template usage
+9. JWT session token usage
+10. Cookie usage
+11. CSS web design 
 
 ## Sources
 1. “Beautiful CSS Buttons Examples - CSS Scan.” 92 Beautiful CSS Buttons Examples - CSS Scan, https://getcssscan.com/css-buttons-examples. 
@@ -161,9 +172,10 @@ Fig.10 Shows a flow diagram representing the feature that allows to view a speci
 5. “How to - Search Bar.” How To Create a Search Bar, https://www.w3schools.com/howto/howto_css_searchbar.asp. 
 
 ## Development
-Explain how I was challenged and how I solved with explaining the lines of codes.
+#### Design aspect of the social network 
 
-### 1. The social network website will provide a  secure login and registration system. 
+
+### Success Criteria 1: The social network website will provide a  secure login and registration system. 
 #### Password encryption
 ```.py
 from passlib.context import CryptContext
@@ -220,7 +232,7 @@ def register():
                 session['token'] = token
                 return response
 ```
-### 2. The social network website will allow users to post reviews of the local places, containing title, date, and content. 
+### Success Criteria 2: The social network website will allow users to post reviews of the local places, containing title, date, and content. 
 ```.py
   if request.method == 'POST':
             title = request.form['title']
@@ -240,7 +252,7 @@ def register():
         return render_template("profile.html", user = user, posts = posts, current_user_id=int(current_user_id))
 
 ```
-### 3. The social network website will have a feature to display all users and the city about which they post. 
+### Success Criteria 3: The social network website will have a feature to display all users and the city about which they post. 
 ```.py
 @app.route('/users')
 @token_required
@@ -254,7 +266,7 @@ def users():
         db.close()# Closes the database connection
         
 ```
-### 4. The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators. 
+### Success Criteria 4: The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators. 
 ```.py
 city = request.args.get('city')# Gets the city chosen from the option bar (if any)
         search_query = request.args.get('search_query')
@@ -266,7 +278,7 @@ city = request.args.get('city')# Gets the city chosen from the option bar (if an
     else:
         return redirect("login")
 ```
-### 5. The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile. 
+### Success Criteria 5: The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile. 
 ```.py
       users, posts = None, None
         user = db.search(f"SELECT * from users where id={user_id}")
@@ -276,7 +288,7 @@ city = request.args.get('city')# Gets the city chosen from the option bar (if an
 
         return render_template("profile.html", user = user, posts = posts, current_user_id=int(current_user_id))
 ```
-### 6. The social network website will have an interactive option display available cities which user could explore, with an option to learn about each one, by simply clicking at the picture of it. 
+### Success Criteria 6: The social network website will have an interactive option display available cities which user could explore, with an option to learn about each one, by simply clicking at the picture of it. 
 ```.py
 @app.route('/cities', methods=["GET", "POST"])
 @token_required
