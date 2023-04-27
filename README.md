@@ -92,8 +92,10 @@ Fig. 7 shows the class used for manipulating database, used for the website appl
 ## Flow Diagram
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/project4_flowch1_register.png)
 Fig.8 Shows the flow diagram for the registration system of the Citio social network website
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/User%20list%20feature%20flow%20diagram%20-%20Flowchart.png)
+Fig.9 Shows a flow diagram for the user list feature and its select city and search by username filters. 
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/flow%20diagram%20for%20the%20profile%20feature%20-%20Flowchart.png)
-Fig.9 Shows a flow diagram representing the feature that allows to view a specific user profile and if it is the profile of the user logged in it allows him to upload a post.
+Fig.10 Shows a flow diagram representing the feature that allows to view a specific user profile and if it is the profile of the user logged in it allows him to upload a post.
 ## Test plan
 |Test Number|Description|Test Type| Target|Procedure|Expected Outcome|
 |-----------|-----------|--------|-----------|-----------------|----|
