@@ -80,7 +80,7 @@ I will design a new creative social network that will allow users to share their
 Fig.3 shows the system diagram of the social network website
 ## Wireframe Diagram
 ## ER Diagram
-![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/er%20diagram%20final%20project%204.png)
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/erDiagramProject4Final.png)
 Fig.4 shows database structure of the social network website
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/user%20databse.png)
 Fig.5 shows user database of the social network website, presented in the ER diagram (data provided in the example is not actual data gathered from any of the users.)
@@ -107,33 +107,33 @@ Fig.10 Shows a flow diagram representing the feature that allows to view a speci
 |6| Commenting on complexed code practices |Code Review| Adding comments that would explain the usage of more complex programming tools and algorithms to help future potential developers| (1) Review the python Project_4.py code and focus on the mkore complexed algortihms and routes that have a unique features (2) Add a comment explaining their usage and function in the code| The code is easier to understand and is more open for future co-development|
 
 ## Record of Tasks
-| Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
+| Task No | Planned Action   | Design Cycle                                            | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Write the Problem Definition **Plan**| Write a precise problem definition that identifies a problem, consequences of it, and a clear solution that is being proposed    | 25min         | April 7th    | A         |
-| 2  |  Write down design statement **Plan**| Have a first version of the design statement done  |  10 min | April 9th  |  A   |
-| 3  |  Write down first success criteria established during the first user meeting **Plan**| Have a first version of success criteria inspired by potential future users. Their opinions and preferences were gathered through a questionire  | 40min  | April 10th  |  A   |
-|4| Write a proposed solution| Propose a solution for the Web application| 15 min| April 11th| A |
-| 5 | Write down rationale for the proposed solution |  Have the firt version of rationale written down  | 45 min  | April 13th  |  A   |
-| 6 | Rewrite success criteria initially stated | Have a clearer version of success criteria| 15 min  |  April 13th  | A|
-| 7  | Add table of content  |  Add table of content at the top of the file |20 min| April 15th   |   A  |
-|  8 | Create an ER diagram  |  Have an database structure representation for the social network website | 25 min  |  April 15th |   B  |
-| 9 |  Create first version of SNS user interface welcome screen | Have user interface for the starting screen using CSS and HTML style features  |50 min  |  April 15th |  C   |
-|  10| Create System diagram for SNS | Have a first version of system diagram done and ready to be presented to the client | 30 min  | April 16th  | B |
-| 11|   Create functional registration system and have a first version UI for it  created |  Have a functional registration system for the SNS | 35 min    | April 17th    |C
-|  12 | Create a active password policy check for the login feature  | Have a visual presentation showing if the password policy has been met or not  | 25 min | April 18th    | C
-|  13 | Work on flow diargam for the registration system of the SNS and the users list of the SNS  | Have flow diagram that represnets registration system and the user list done  | 55 min  |  April 18th |   B  |
-|  14 |  Work on the user list UI and list information | Redo initial UI for the user list webpage and add city information to the user informations displayed in the list  |  40 min | April 19th  |   C  |
-|   15| Create the second version of the system diagram  |  Create a more accurate version of a system diagram | 20 min  | April 19th  | B |
-| 16  |  Create a questionaire upload client questionaires in the appendix section |  Have two client questionaires uploaded to the appendix | 25 min  | April 20th  |  D  |
-| 17  | Add a base template options menu to all the pages  | Have an options menu containg logout, user list, read articles...  | 30 min  |April 21st   |C     |
-|  18 | Create a UML diagram for the web aplication  | Have a Uml Diagram fimished for the SNS  | 15 min  | April 21st  |  B   |
-| 19  | Update the test plan and add 2nd integration test, testing user list feature of the website  | Have a written test about user list feature  |  10 min | April 22nd  |  B   |
-|20   | Test accesing the user list from the main menu page  | Update the test plan with integration test relating allowing registered user to acces the table containing users of citio| 15 min  |  April 22 | B    |
-|  21 | Test Accesing a specific user from the user list feature.  | Update the test plan with integration test relating the feature that check a specific account from the user list  |  15 min | April 22nd  |  B   |
+| 1       | Write the Problem Definition |Planning| Write a precise problem definition that identifies a problem, consequences of it, and a clear solution that is being proposed    | 25min         | April 7th    | A         |
+| 2  |  Write down design statement |Planning| Have a first version of the design statement done  |  10 min | April 9th  |  A   |
+| 3  |  Write down first success criteria established during the first user meeting|Planning Have a first version of success criteria inspired by potential future users. Their opinions and preferences were gathered through a questionire  | 40min  | April 10th  |  A   |
+|4| Write a proposed solution| Planning|Propose a solution for the Web application| 15 min| April 11th| A |
+| 5 | Write down rationale for the proposed solution |Planning|  Have the firt version of rationale written down  | 45 min  | April 13th  |  A   |
+| 6 | Rewrite success criteria initially stated|Planning | Have a clearer version of success criteria| 15 min  |  April 13th  | A|
+| 7  | Add table of content| Planning |  Add table of content at the top of the file |20 min| April 15th   |   A  |
+|  8 | Create an ER diagram|Design  |  Have an database structure representation for the social network website | 25 min  |  April 15th |   B  |
+| 9 |  Create first version of SNS user interface welcome screen|Development | Have user interface for the starting screen using CSS and HTML style features  |50 min  |  April 15th |  C   |
+|  10| Create System diagram for SNS| Design| Have a first version of system diagram done and ready to be presented to the client | 30 min  | April 16th  | B |
+| 11|   Create functional registration system and have a first version UI for it  created|Development |  Have a functional registration system for the SNS | 35 min    | April 17th    |C
+|  12 | Create a active password policy check for the login feature|Development  | Have a visual presentation showing if the password policy has been met or not  | 25 min | April 18th    | C
+|  13 | Work on flow diargam for the registration system of the SNS and the users list of the SNS| Design  | Have flow diagram that represnets registration system and the user list done  | 55 min  |  April 18th |   B  |
+|  14 |  Work on the user list UI and list information| Development | Redo initial UI for the user list webpage and add city information to the user informations displayed in the list  |  40 min | April 19th  |   C  |
+|   15| Create the second version of the system diagram| Design  |  Create a more accurate version of a system diagram | 20 min  | April 19th  | B |
+| 16  |  Create a questionaire upload client questionaires in the appendix section |Evaluation |  Have two client questionaires uploaded to the appendix | 25 min  | April 20th  |  D  |
+| 17  | Add a base template options menu to all the pages| Development | Have an options menu containg logout, user list, read articles...  | 30 min  |April 21st   |C     |
+|  18 | Create a UML diagram for the web aplication| Design | Have a Uml Diagram fimished for the SNS  | 15 min  | April 21st  |  B   |
+| 19  | Update the test plan and add 2nd integration test, testing user list feature of the website| Testing  | Have a written test about user list feature  |  10 min | April 22nd  |  B   |
+|20   | Test accesing the user list from the main menu page|  Testing| Update the test plan with integration test relating allowing registered user to acces the table containing users of citio| 15 min  |  April 22 | B    |
+|  21 | Test accesing a specific user from the user list feature.|Testing | Update the test plan with integration test relating the feature that check a specific account from the user list  |  15 min | April 22nd  |  B   |
 |  22 |  Creating new UI for the register, login, and home page of the website | Have more modern UI for the mentioned pages   | 40 min  | April 24th  |   C  |
 |   23| Add a filter by city option for the user table  |  Have a functioning feature to select the city of interest and see only relevant content creators | 20 min |  April 24th |  C   |
 |   24| Add a search bar option for the user table | Have a functioning username search abr that will allow searching for a desried user/s fromthe user table  | 40 min  | April 24th  |  C   |
-|   25| Do integration testing on the newly added filter options and the user list display option  | See if all filter options work properly  | 10 min  | April 24th  |  B   |
+|   25| Do integration testing on the newly added filter options and the user list display option|Testing  | See if all filter options work properly  | 10 min  | April 24th  |  B   |
 |   26| Add a access token to the website  |  Secure that users can not access the website options unless they are logged in | 35 min  |April 25th |C  |     
 |   27|  Crate a feature to allow users to explore and learn about cities provided in Citio application | Have an option to learn about cities offered in Citio by clicking at the picture of them  | 1h 45 min | April 26th  |  C  |
 |   28|  Create a flow diagram for the the user profile page|Visually present the feature of viewing a specific profile thrrough a flow diagram   | 45 min  | April 26th  |   B  |
@@ -141,7 +141,13 @@ Fig.10 Shows a flow diagram representing the feature that allows to view a speci
 |  30 | Create a final version of the ER diagram that incldues new city informations in the database  |  A new ER diagram shows most recent databse structure adequatelly |  10 min | April 26th  |   B  |
 |  31 | Create a city database   | Have a database that conntains names, pcitures, desctiptions, fun facts. about cities from Citio  |  25min | April 26th  |   C  |
 |  32 | Create a city database   | Have a database that contains names, pcitures, desctiptions, fun facts. about cities from Citio  |  25min | April 26th  |   C  |
-|  32 | Run code review testing for potential loops and loop nesting and see if any complex algorithms used need a comment to explain them to potential co-developers  | Have a more efficient code of higher quality and better coding practices that would make future co-development easier  | 25 min   | April 26th  |  B   |
+|  33 | Run code review testing for potential loops and loop nesting and see if any complex algorithms used need a comment to explain them to potential co-developers |Testing | Have a more efficient code of higher quality and better coding practices that would make future co-development easier  | 25 min   | April 26th  |  B   |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
 
 # Criteria C: Development
 ## Tools and techniques used
