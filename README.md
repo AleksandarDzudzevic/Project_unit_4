@@ -108,10 +108,10 @@ Fig.10 Shows a flow diagram representing the feature that allows to view a speci
 
 ## Record of Tasks
 | Task No | Planned Action   | Design Cycle                                            | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
-|---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
+|---------|--------------------------------------------------------|-------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Write the Problem Definition |Planning| Write a precise problem definition that identifies a problem, consequences of it, and a clear solution that is being proposed    | 25min         | April 7th    | A         |
 | 2  |  Write down design statement |Planning| Have a first version of the design statement done  |  10 min | April 9th  |  A   |
-| 3  |  Write down first success criteria established during the first user meeting|Planning Have a first version of success criteria inspired by potential future users. Their opinions and preferences were gathered through a questionire  | 40min  | April 10th  |  A   |
+| 3  |  Write down first success criteria established during the first user meeting|Planning |Have a first version of success criteria inspired by potential future users. Their opinions and preferences were gathered through a questionire  | 40min  | April 10th  |  A   |
 |4| Write a proposed solution| Planning|Propose a solution for the Web application| 15 min| April 11th| A |
 | 5 | Write down rationale for the proposed solution |Planning|  Have the firt version of rationale written down  | 45 min  | April 13th  |  A   |
 | 6 | Rewrite success criteria initially stated|Planning | Have a clearer version of success criteria| 15 min  |  April 13th  | A|
@@ -130,18 +130,17 @@ Fig.10 Shows a flow diagram representing the feature that allows to view a speci
 | 19  | Update the test plan and add 2nd integration test, testing user list feature of the website| Testing  | Have a written test about user list feature  |  10 min | April 22nd  |  B   |
 |20   | Test accesing the user list from the main menu page|  Testing| Update the test plan with integration test relating allowing registered user to acces the table containing users of citio| 15 min  |  April 22 | B    |
 |  21 | Test accesing a specific user from the user list feature.|Testing | Update the test plan with integration test relating the feature that check a specific account from the user list  |  15 min | April 22nd  |  B   |
-|  22 |  Creating new UI for the register, login, and home page of the website | Have more modern UI for the mentioned pages   | 40 min  | April 24th  |   C  |
-|   23| Add a filter by city option for the user table  |  Have a functioning feature to select the city of interest and see only relevant content creators | 20 min |  April 24th |  C   |
-|   24| Add a search bar option for the user table | Have a functioning username search abr that will allow searching for a desried user/s fromthe user table  | 40 min  | April 24th  |  C   |
+|  22 |  Creating new UI for the register, login, and home page of the website|Development | Have more modern UI for the mentioned pages   | 40 min  | April 24th  |   C  |
+|   23| Add a filter by city option for the user table | Development |  Have a functioning feature to select the city of interest and see only relevant content creators | 20 min |  April 24th |  C   |
+|   24| Add a search bar option for the user table |Development| Have a functioning username search abr that will allow searching for a desried user/s fromthe user table  | 40 min  | April 24th  |  C   |
 |   25| Do integration testing on the newly added filter options and the user list display option|Testing  | See if all filter options work properly  | 10 min  | April 24th  |  B   |
-|   26| Add a access token to the website  |  Secure that users can not access the website options unless they are logged in | 35 min  |April 25th |C  |     
-|   27|  Crate a feature to allow users to explore and learn about cities provided in Citio application | Have an option to learn about cities offered in Citio by clicking at the picture of them  | 1h 45 min | April 26th  |  C  |
-|   28|  Create a flow diagram for the the user profile page|Visually present the feature of viewing a specific profile thrrough a flow diagram   | 45 min  | April 26th  |   B  |
-|  29 |  Write down the development proccess of fullfilling the success criteria 1 (login/register) |  Show the development process and computetional thinking behind the login / register options | 40 min  | April 26th  |  C   |
-|  30 | Create a final version of the ER diagram that incldues new city informations in the database  |  A new ER diagram shows most recent databse structure adequatelly |  10 min | April 26th  |   B  |
-|  31 | Create a city database   | Have a database that conntains names, pcitures, desctiptions, fun facts. about cities from Citio  |  25min | April 26th  |   C  |
-|  32 | Create a city database   | Have a database that contains names, pcitures, desctiptions, fun facts. about cities from Citio  |  25min | April 26th  |   C  |
-|  33 | Run code review testing for potential loops and loop nesting and see if any complex algorithms used need a comment to explain them to potential co-developers |Testing | Have a more efficient code of higher quality and better coding practices that would make future co-development easier  | 25 min   | April 26th  |  B   |
+|   26| Add a access token to the website |Development |  Secure that users can not access the website options unless they are logged in | 35 min  |April 25th |C  |     
+|   27|  Crate a feature to allow users to explore and learn about cities provided in Citio application| Development | Have an option to learn about cities offered in Citio by clicking at the picture of them  | 1h 45 min | April 26th  |  C  |
+|   28|  Create a flow diagram for the the user profile page| Design |Visually present the feature of viewing a specific profile thrrough a flow diagram   | 45 min  | April 26th  |   B  |
+|  29 |  Write down the development process of fullfilling the success criteria 1 (login/register)|  Development|  Show the development process and computetional thinking behind the login / register options | 40 min  | April 26th  |  C   |
+|  30 | Create a final version of the ER diagram that incldues new city informations in the database |Design |  A new ER diagram shows most recent databse structure adequatelly |  10 min | April 26th  |   B  |
+|  31 | Create a city database |Development  | Have a database that conntains names, pcitures, desctiptions, fun facts. about cities from Citio  |  25min | April 26th  |   C  |
+|  32 | Run code review testing for potential loops and loop nesting and see if any complex algorithms used need a comment to explain them to potential co-developers |Testing | Have a more efficient code of higher quality and better coding practices that would make future co-development easier  | 25 min   | April 26th  |  B   |
 | | | | | | | |
 | | | | | | | |
 | | | | | | | |
