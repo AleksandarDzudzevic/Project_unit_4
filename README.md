@@ -141,7 +141,7 @@ Fig.10 Shows a flow diagram representing the feature that allows to view a speci
 |  30 | Create a final version of the ER diagram that incldues new city informations in the database |Design |  A new ER diagram shows most recent databse structure adequatelly |  10 min | April 26th  |   B  |
 |  31 | Create a city database |Development  | Have a database that conntains names, pcitures, desctiptions, fun facts. about cities from Citio  |  25min | April 26th  |   C  |
 |  32 | Run code review testing for potential loops and loop nesting and see if any complex algorithms used need a comment to explain them to potential co-developers |Testing | Have a more efficient code of higher quality and better coding practices that would make future co-development easier  | 25 min   | April 26th  |  B   |
-| | | | | | | |
+| 33|Add a delete account option to the SNS |Development | Be able t delete your account| 15 min| April 28th|C |
 | | | | | | | |
 | | | | | | | |
 | | | | | | | |
