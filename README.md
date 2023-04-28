@@ -88,6 +88,7 @@ Fig.4 shows database structure of the social network website
 Fig.5 shows user database of the social network website, presented in the ER diagram (data provided in the example is not actual data gathered from any of the users.)
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/post%20database.png)
 Fig.6 shows post database of social network website, presented in the ER diagram (data provided in the example is not actual data gathered from any of the users.)
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/project4databaseCity.png)
 Fig.7 shows the city database of the social network website, presneted in the ER diagram (Fig.4). (Examples provided are the cities currently available in the Citio SNS.)
 ## UML Diagram
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/Screenshot%202023-04-21%20at%2023.48.39.png)
@@ -183,8 +184,105 @@ Record of Task-:shows the planning and working process throughout the project. T
 
 ## Development
 #### Design aspect of the social network 
+```.html
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        overflow: hidden;
+        background-color: #79bcff;
+        border-radius: 30px 30px 30px 30px;
+        margin-bottom: 20px;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 14px 18px;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-right: 10px;
+    }
+
+    .navbar a:hover {
+        background-color: #394bf6;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 800px;
+        background-color: #fff;
+        border-radius: 30px 30px 30px 30px;
+        padding: 20px;
+    }
+
+    .options {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .options a {
+        display: block;
+        color: #333;
+        text-decoration: none;
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: #9ecbff;
+        transition: background-color 0.3s ease;
+    }
+
+    .options a:hover {
+        background-color: #6ca2d8;
+        color: #fff;
+    }
+
+    .image {
+        border-radius: 30px 0 0 30px;
+        overflow: hidden;
+        width: 600px;
+        height: 400px;
+    }
+
+    .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+</style>
+```
+Fig.11 Shows the style features used in the bas template design of social network. The idea for a base template came from the patern recognition of the similar goals for final designs of differnet features throughout the social network. Instead of rewriting the template every time, I create a base template used for colors of all pages in social network website. In terms of web design, using a light blue color scheme can help create a sense of tranquility and trustworthiness, making it a good choice for websites related to health, finance, or technology. [^10]
 
 
+
+```.html
+<div class="navbar">
+    <a href="{{ url_for('index') }}">Home</a>
+    <a href="{{ url_for('users') }}">Users</a>
+    <a href="{{ url_for('cities') }}">Cities</a>
+    <a href="{{ url_for('posts') }}">Posts</a>
+    <a href="{{ url_for('my_profile') }}">Your profile</a>
+    <a href="{{ url_for('logout') }}">Logout</a>
+    <a href="{{ url_for("delete_profile") }}">Delete the account</a>
+</div>
+```
+Another patern that I have recognized was that I needed certain features one click away, regardless of what webpage of the website I was on. This is why I created a navigation bar that is located within the base template, allowing access to certain featrures from whicever page user is currently on.
+Fig 12
 ### Success Criteria 1: The social network website will provide a  secure login and registration system. 
 #### Password encryption
 ```.py
@@ -195,7 +293,7 @@ pwd_config = CryptContext(schemes = ["pbkdf2_sha256"],
                           pbkdf2_sha256__default_rounds = 30000
                           )
 ```
-Fig. 11 shows
+Fig. 13 shows
 ```.py
 # this function receives unsafe password and returns the hashed password
 
@@ -203,7 +301,7 @@ def encrypt_password(user_passowrd):
     return pwd_config.encrypt(user_passowrd)
 
 ```
-Fig. 12 shows
+Fig. 14 shows
 
 #### Regsitration System
 ```.py
@@ -225,7 +323,7 @@ def register():
         return redirect(url_for("login"))
     return render_template('register.html')
 ```
-Fig. 13 shows
+Fig. 15 shows
 
 #### Login System
 ```.py
@@ -235,7 +333,7 @@ Fig. 13 shows
         db = database_worker("social_net.db")
         user = db.search(f"SELECT * from users where email ='{email}'
 ```
-Fig. 14 shows
+Fig. 16 shows
 ```.py
  if user:
             print("passed")
@@ -248,7 +346,7 @@ Fig. 14 shows
                 session['token'] = token
                 return response
 ```
-Fig. 15 shows
+Fig. 17 shows
 
 ### Success Criteria 2: The social network website will allow users to post reviews of the local places, containing title, date, and content. 
 ```.py
@@ -270,7 +368,7 @@ Fig. 15 shows
         return render_template("profile.html", user = user, posts = posts, current_user_id=int(current_user_id))
 
 ```
-Fig. 16 shows
+Fig. 18 shows
 
 ### Success Criteria 3: The social network website will have a feature to display all users and the city about which they post. 
 ```.py
@@ -286,7 +384,7 @@ def users():
         db.close()# Closes the database connection
         
 ```
-Fig. 17 shows
+Fig. 19 shows
 
 ### Success Criteria 4: The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators. 
 ```.py
@@ -300,7 +398,7 @@ city = request.args.get('city')# Gets the city chosen from the option bar (if an
     else:
         return redirect("login")
 ```
-Fig. 18 shows
+Fig. 20 shows
 
 ### Success Criteria 5: The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile. 
 ```.py
@@ -324,7 +422,7 @@ def cities():
     return render_template("cities.html", cities=all_cities)
 
 ```
-Fig. 20 shows
+Fig. 21 shows
 
 ```.py
 @app.route("/city/<city_name>")
@@ -334,7 +432,7 @@ def get_city(city_name):
     return render_template("city.html", city=city_data[0])
 
 ```
-Fig. 21 shows
+Fig. 22 shows
 
 
 # Criteria D: Functionality
@@ -354,4 +452,4 @@ Fig. 21 shows
 [^7]: "HTML Introduction." W3Schools, W3Schools, https://www.w3schools.com/html/html_intro.asp
 [^8]: "Flash vs. HTML5." Digital.gov, 17 Dec. 2015, https://digital.gov/resources/flash-vs-html5/.
 [^9]: "Why You Need an SEO-Friendly Website." SEO Werkz, 11 Jan. 2022, https://www.seowerkz.com/why-you-need-an-seo-friendly-website/.
-
+[^10]: https://www.smashingmagazine.com/2010/01/color-theory-for-designers-part-1-the-meaning-of-color/
