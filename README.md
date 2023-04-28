@@ -281,8 +281,7 @@ Fig.11 Shows the style features used in the bas template design of social networ
     <a href="{{ url_for("delete_profile") }}">Delete the account</a>
 </div>
 ```
-Another patern that I have recognized was that I needed certain features one click away, regardless of what webpage of the website I was on. This is why I created a navigation bar that is located within the base template, allowing access to certain featrures from whicever page user is currently on.
-Fig 12
+Fig.12 Another patern that I have recognized was that I needed certain features one click away, regardless of what webpage of the website I was on. This is why I created a navigation bar that is located within the base template, allowing access to certain featrures from whicever page user is currently on.
 ### Success Criteria 1: The social network website will provide a  secure login and registration system. 
 #### Password encryption
 ```.py
@@ -293,15 +292,15 @@ pwd_config = CryptContext(schemes = ["pbkdf2_sha256"],
                           pbkdf2_sha256__default_rounds = 30000
                           )
 ```
-Fig. 13 shows
+Fig. 13 shows the process and encryption method used for the password hashing for the Social network website. To prevent any serious harm in the case of data leaking, where if the same password is used in multiple places, intruder can use that and the email for other web services, hurting the user in the process.
 ```.py
 # this function receives unsafe password and returns the hashed password
-
 def encrypt_password(user_passowrd):
     return pwd_config.encrypt(user_passowrd)
 
 ```
-Fig. 14 shows
+Fig. 14 shows method which calls the previously metnioned process of encryotion.
+In order to fulfill client's request for the website, a secure data storing is neccesary and it allows privacy of the user to stay at a desired level.
 
 #### Regsitration System
 ```.py
