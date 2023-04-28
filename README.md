@@ -104,10 +104,10 @@ Fig.10 Shows a flow diagram representing the feature that allows to view a speci
 ## Test plan
 |Test Number|Description|Test Type| Target|Procedure|Expected Outcome|
 |-----------|-----------|--------|-----------|-----------------|----|
-|1|Account registration system|Unit testing|Have a fully functional registration system that checks if the proper values are inputed in the email and password fields|(1) Run Project_4.py (2) Click the register button on the login screen (3) Input data on all the fields (4) After filling in all the fields create an account (5) Try to login with the new account too see if it exists now| After following the procedure, a user should be able to login using the credentials of the newly created account|
-|2|User list inspecting |Unit testing| be able to access the user list and see all the registered users and their username and the city which they post about.|(1)Run Project_4.py(2)Login using adequate credentials. (3)Choose the "see all users" option from the navigation bar.(4)Check if the redirected page shows a table containing: id,username, and city for each user| User is able to access the user list from the main menu and will be able to see all the citio users| 
-|3|Accesing a specific user's profile from the user list|Integration testing| Access a specific user's profile  by choosing it from the user list|(1)Run Project_4.py(2)Login using adequate credentials. (3)Choose the "see all users" option from the navigation bar. (4) Choose a desired user and click on its nickname to get redirected to his profile. (5) Check if his profile and posts  (if there are any) are displayed successfully| A user can choose to view a specific creator profile that he is interested in.|
-|4|Finding a specific user through filter options in the user table|Integration testing|Find a user through username search or by choosing a specific city of interest |(1)Run Project_4.py(2)Login using adequate credentials. (3)Choose the "see all users" option from the navigation bar. (4) Choose a city and see if only users from that city appear in the user table. (5) Now type a certain username or a part of it and see if only adequate users appear | Both filter function work and are properly integrated with the user table database and main menu|
+|1|Account registration system|Unit testing|Have a fully functional registration system that checks if the proper values are inputed in the email and password fields|(1) Run Project_4.py (2) Click the register button on the login screen (3) Input a username, email,password and city that will be used for this tester account(4) After filling in all the fields create an account (5) Try to login with the new account too see if it exists now| After following the procedure, a user should be able to login using the credentials of the newly created account|
+|2|User list inspecting |Unit testing| be able to access the user list and see all the registered users and their username and the city which they post about.|(1)Run Project_4.py(2)Login using adequate credentials for the tester account created in the test no.1. (3)Choose the "see all users" option from the navigation bar.(4)Check if the redirected page shows a table containing: id,username, and city for each user| User is able to access the user list from the main menu and will be able to see all the citio users| 
+|3|Accesing a specific user's profile from the user list|Integration testing| Access a specific user's profile  by choosing it from the user list|(1)Run Project_4.py(2)Login using adequate credentials for the tester account created in the test no.1. (3)Choose the "see all users" option from the navigation bar. (4) Choose a desired user and click on its nickname to get redirected to his profile. (5) Check if his profile and posts  (if there are any) are displayed successfully| A user can choose to view a specific creator profile that he is interested in.|
+|4|Finding a specific user through filter options in the user table|Integration testing|Find a user through username search or by choosing a specific city of interest |(1)Run Project_4.py(2)Login using adequate credentials for the tester account created intest no.1. (3)Choose the "see all users" option from the navigation bar. (4) Choose a city and see if only users from that city appear in the user table. (5) Now type a certain username or a part of it and see if only adequate users appear | Both filter function work and are properly integrated with the user table database and main menu|
 |5|Code practices around html and python, regarding usage of loops and their nesting  |Code Review| Replace repeating funcitons and features using better coding practices by using loops, and make the code more efficient by nesting loops.|(1) Review Project_4.py python code and html code t see any repetitive parts. (2) Create an algortihm that would replace the repetitive part using loops and nesting them if neccesary. (3) Replace the old repetitive code and connect new algorithm and html code to the main SNS code | The code now uses loops for the profile accessing, and for the learn about city feature.| 
 |6| Commenting on complexed code practices |Code Review| Adding comments that would explain the usage of more complex programming tools and algorithms to help future potential developers| (1) Review the python Project_4.py code and focus on the mkore complexed algortihms and routes that have a unique features (2) Add a comment explaining their usage and function in the code| The code is easier to understand and is more open for future co-development|
 Table 1:
@@ -447,7 +447,8 @@ With this two filter options successfully presented, I have managed to met clien
 
         return render_template("profile.html", user = user, posts = posts, current_user_id=int(current_user_id))
 ```
-Fig. 19 shows
+Fig. 19 shows the part of the code that is responsible for the option to go to a specific user's profile by clicking on their nickname. The procedure first decomposes the problem to quering users with an id is equal to that of the user that you clicked on. That should be only one user, and then another query inside of this algorithm will get all the posts created by this user which would be returned to the page whose template is being rendered, and we will be able to see them on his profile page. 
+This Algorithm, after some modifications, successfully managed to meet eclient's criteria 5.
 
 ### Success Criteria 6: The social network website will have an interactive option display available cities which user could explore, with an option to learn about each one, by simply clicking at the picture of it. 
 ```.py
@@ -459,7 +460,31 @@ def cities():
     return render_template("cities.html", cities=all_cities)
 
 ```
-Fig. 21 shows
+cities.html
+```.py
+<body>
+ <div class="picture-container">
+    <img src="/static/CitioLogo.png" alt="logo">
+  </div>
+  <div class="header">
+    Our Cities
+  </div>
+
+  <!-- Image containers -->
+  <div class="image-container">
+    {% for c in cities %}
+      <div>
+        <a href="{{ url_for('get_city', city_name=c[0]) }}">
+          <img src="{{ c[1] }}" alt="">
+        </a>
+        <p>{{ c[2] }}</p>
+      </div>
+    {% endfor %}
+  </div>
+
+</body>
+```
+Fig. 21 shows the function that is used to render the template which will, using the base template (Fig.10), show the currently available cities in the Citio social network, and showing a picture their name and a small desription of the place. (These atributes can be seen in the city database Fig.7) The template that is rendered in this function has a feature that will send the user to a specific city page, when a picture of one of these cities ic clicked.
 
 ```.py
 @app.route("/city/<city_name>")
@@ -468,6 +493,30 @@ def get_city(city_name):
     city_data = db.search(f"select * from cities where name='{city_name}'")
     return render_template("city.html", city=city_data[0])
 
+```
+city.html
+```
+<body>
+
+  <div class="header">
+    {{ city[0] }}
+  </div>
+
+  <!-- Image container -->
+  <div class="image-container">
+    <img src="{{ city[1] }}" alt="Tokyo">
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+<p>{{ city[4] }}</p>
+  </div>
+
+  <!-- Fun fact -->
+  <div class="fun-fact">
+    <p>{{ city[3] }}</p>
+  </div>
+</body>
 ```
 Fig. 22 shows
 
