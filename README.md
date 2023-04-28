@@ -88,6 +88,7 @@ Fig.4 shows database structure of the social network website
 Fig.5 shows user database of the social network website, presented in the ER diagram (data provided in the example is not actual data gathered from any of the users.)
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/post%20database.png)
 Fig.6 shows post database of social network website, presented in the ER diagram (data provided in the example is not actual data gathered from any of the users.)
+Fig.7 shows the city database of the social network website, presneted in the ER diagram (Fig.4). (Examples provided are the cities currently available in the Citio SNS.)
 ## UML Diagram
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/Screenshot%202023-04-21%20at%2023.48.39.png)
 Fig. 7 shows the class used for manipulating database, used for the website application 
