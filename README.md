@@ -153,7 +153,7 @@ Shows the test plan containing information about testing done for this applicati
 |  32 | Run code review testing for potential loops and loop nesting and see if any complex algorithms used need a comment to explain them to potential co-developers |Testing | Have a more efficient code of higher quality and better coding practices that would make future co-development easier  | 25 min   | April 26th  |  B   |
 | 33|Add a delete account option to the Social network website |Development | Be able to delete your account | 15 min| April 28th|C |
 |34|Write down a development process for fulfilling success criteria 2 (Posting reviews)|Development | Show the developing process of the python code that fulfilled the 2nd success criteria stated in the success criteria stated above| 30 min |28th April |C |
-| | | | | | | |
+|35 | write down development process for criteria 3,4,5 & 6 as well as the devlopment of the session tokens for the Citio website| Development|Have a development process that is understandable and refers to computational thinking and shows the thinking process of developed algorithms| 1h 30 min|April 28th |C | 
 | | | | | | | |
 | | | | | | | |
 | | | | | | | |
@@ -518,7 +518,7 @@ city.html
   </div>
 </body>
 ```
-Fig. 22 shows
+Fig. 22 shows the function responsible for rendering the template of the webpage of the specific city chosen by the user in cities webpage that I refered to earlier (Fig. 21). In order to develop this specific city webpage, I went through a serious reasearch process on how to itterate my repetitive algorithm which repeated the same process 6 times, using 6 different html pages (one for each city). Recognizng this patern I was able to iterate a for loop using jinja inhtml and successfully meet client's 6th and final success criteria.
 
 
 # Criteria D: Functionality
