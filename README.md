@@ -65,7 +65,7 @@ I will design a new creative social network that will allow users to share their
 >[ Another big problem is not having a place where my friends could see only the recipes I upload]
 2. The social network website will allow users to post reviews of the local places, containing title, date, and content. 
 >[I have always faced the big challenge of finding them, as they can be hardly found on google maps where only a few gain exposure]
-3. The social network website will have a feature to display all users and the city about which they post. 
+3. The social network website will have a feature to display all users, their contact email, and the city about which they post. 
 >[user has to put great effort to narrow the search only to relevant local places and creators located in their city]
 4. The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators. 
 >[user has to put great effort to narrow the search only to relevant local places located in their city and can not find specific creators located in their city.]
@@ -300,7 +300,7 @@ def encrypt_password(user_passowrd):
 
 ```
 Fig. 14 shows method which calls the previously metnioned process of encryotion.
-In order to fulfill client's request for the website, a secure data storing is neccesary and it allows privacy of the user to stay at a desired level.
+In order to fulfill client's request for the website, safe and secure data storing is neccesary and it allows privacy of the user to stay at a desired level.
 
 #### Regsitration System
 ```.py
@@ -322,7 +322,9 @@ def register():
         return redirect(url_for("login"))
     return render_template('register.html')
 ```
-Fig. 15 shows
+Fig. 15 shows the registration function for the social network website Citio. The function takes the usernamme,city,email and a password which is then encrypted before storing everything into user database. we see that after running the query and successfully storing the infromation of the newly registered user, a user is redirected to the login page where it can access the website using credentials of the newly registered account.
+
+When developing this part of code using generalisation I was able to recognize a way to solve one of the criteria requirements by including a option bar in the registration where a user would input the city  which he would write about. This helped with solving the problem of seeing irellevent content creators that are not located in my city.
 
 #### Login System
 ```.py
@@ -331,9 +333,6 @@ Fig. 15 shows
         passwd = request.form['passwd']
         db = database_worker("social_net.db")
         user = db.search(f"SELECT * from users where email ='{email}'
-```
-Fig. 16 shows
-```.py
  if user:
             print("passed")
             user = user[0]  # cause search returns a list
@@ -345,7 +344,41 @@ Fig. 16 shows
                 session['token'] = token
                 return response
 ```
-Fig. 17 shows
+Fig. 16 shows the login function of the social network website. After getting the credentials that a user inpted I developed an algorithm that searches through the suer database, looking for an account with a matching email address. Policy for the email address is to have symbol "@" and characters before and after it. If there is such a user, algorithm would then check if the encryption of the password they inputed matches the one in the database that was stored upon registration of the account. If it does, login is successful and a user is given a session token that lasts 30 minutes after which they would need to login again. 
+With this said, this feature was successfully developed and client's criteria 1 was successfully met.
+
+```.py
+from functools import wraps
+import jwt
+
+def token_required(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        # Check if a token is present in the user's session
+        if 'token' not in session:
+            print("no token")
+            # If no token is present, redirect the user to the login page
+            return redirect(url_for('login'))
+        try:
+            # Attempt to decode the token using the secret key
+            print("decoding the token")
+            print(session['token'])
+            data = jwt.decode(session['token'], token_key, algorithms = ['HS256'])
+            print(data)
+
+        except:
+            print("wrong token")
+            # If the token is invalid, redirect the user to the login page
+            return redirect(url_for('login'))
+
+        # If the token is valid, call the decorated function with the original arguments and keyword arguments
+        return f(*args, **kwargs)
+
+    # Return the decorated function
+    return decorated
+
+```
+Fig.17 shows the function used for the creation of the sesssion tokens. This important implementation was inspired by using computational thinking and decomposing the problem of webiste's safety. Even after implemtning cookies, one could still redirect to a page without signing in beforehand. This is why I generalized the algorithm for creating JWT session tokens [^11] which in turn allowed me to set a requirement that a user is logged in before accessing any features of the website. This improved security of the website and solved the previously decomposed problem of safety that the website had.
 
 ### Success Criteria 2: The social network website will allow users to post reviews of the local places, containing title, date, and content. 
 ```.py
@@ -367,9 +400,11 @@ Fig. 17 shows
         return render_template("profile.html", user = user, posts = posts, current_user_id=int(current_user_id))
 
 ```
-Fig. 18 shows
+Fig. 18 shows the code developed in order to allow posting reviews on the social media website. The algorithm I developed uses if statements to gather article's title,content,time of posting, and checks if the information is being provided by the user currently sigend in. If that is the case a new post will be inserted and the page will be refreshed, now showing the newly posted article. I developed this algorithm using patern recognition from the login page where a similar type was used where after a certain validation a query was used which inserted data inputed into the database.
+With this said, this feature ws successfully developed and client's criteria 2 was successfully met.
 
-### Success Criteria 3: The social network website will have a feature to display all users and the city about which they post. 
+
+### Success Criteria 3: The social network website will have a feature to display all users, their contact email, and the show the city about which they post. 
 ```.py
 @app.route('/users')
 @token_required
@@ -379,11 +414,12 @@ def users():
     # Checks if the user is authenticated by checking if the user.id cookie exists
     if request.cookies.get('user.id'):
         db = database_worker("social_net.db") # Creates a database worker object to perform SQL queries on the "social_net.db" database
-        all_users = db.search("SELECT * FROM users")# Selects all users from the "users" table
+        all_users = db.search("SELECT * FROM users")# Selects all users from the "users" table # selects username email adress and the city of the user
         db.close()# Closes the database connection
         
 ```
-Fig. 19 shows
+Fig. 19 shows the function used to showcase the list of all Citio users. It uses an algorithm that checks if the user has a valid cookie and then it shows the list of users extracted from the user database. Table is formated in the order: username, email, and city which is exactly what the criteria 3 required. The development stage was done by using the abstraction and not focusing on other relevnat criteria yet (criteria 4 which is also about the user list display), until this one was solved.
+With that, success criteria 3 was met, and a website now had a feature of showcasing its users.
 
 ### Success Criteria 4: The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators. 
 ```.py
@@ -452,3 +488,4 @@ Fig. 22 shows
 [^8]: "Flash vs. HTML5." Digital.gov, 17 Dec. 2015, https://digital.gov/resources/flash-vs-html5/.
 [^9]: "Why You Need an SEO-Friendly Website." SEO Werkz, 11 Jan. 2022, https://www.seowerkz.com/why-you-need-an-seo-friendly-website/.
 [^10]: https://www.smashingmagazine.com/2010/01/color-theory-for-designers-part-1-the-meaning-of-color/
+[^11]: 4. Auth0. “JSON Web Tokens.” Auth0 Docs, https://auth0.com/docs/secure/tokens/json-web-tokens. 
