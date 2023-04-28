@@ -143,8 +143,8 @@ Fig.10 Shows a flow diagram representing the feature that allows to view a speci
 |  30 | Create a final version of the ER diagram that incldues new city informations in the database |Design |  A new ER diagram shows most recent databse structure adequatelly |  10 min | April 26th  |   B  |
 |  31 | Create a city database |Development  | Have a database that conntains names, pcitures, desctiptions, fun facts. about cities from Citio  |  25min | April 26th  |   C  |
 |  32 | Run code review testing for potential loops and loop nesting and see if any complex algorithms used need a comment to explain them to potential co-developers |Testing | Have a more efficient code of higher quality and better coding practices that would make future co-development easier  | 25 min   | April 26th  |  B   |
-| 33|Add a delete account option to the SNS |Development | Be able to delete your account| 15 min| April 28th|C |
-| | | | | | | |
+| 33|Add a delete account option to the Social network website |Development | Be able to delete your account | 15 min| April 28th|C |
+|34|Write down a development process for fulfilling success criteria 2 (Posting reviews)|Development | Show the developing process of the python code that fulfilled the 2nd success criteria stated in the success criteria stated above| 30 min |28th April |C |
 | | | | | | | |
 | | | | | | | |
 | | | | | | | |
@@ -185,6 +185,7 @@ pwd_config = CryptContext(schemes = ["pbkdf2_sha256"],
                           pbkdf2_sha256__default_rounds = 30000
                           )
 ```
+Fig. 11 shows
 ```.py
 # this function receives unsafe password and returns the hashed password
 
@@ -192,6 +193,8 @@ def encrypt_password(user_passowrd):
     return pwd_config.encrypt(user_passowrd)
 
 ```
+Fig. 12 shows
+
 #### Regsitration System
 ```.py
 def register():
@@ -212,6 +215,8 @@ def register():
         return redirect(url_for("login"))
     return render_template('register.html')
 ```
+Fig. 13 shows
+
 #### Login System
 ```.py
  if request.method == 'POST':
@@ -220,6 +225,7 @@ def register():
         db = database_worker("social_net.db")
         user = db.search(f"SELECT * from users where email ='{email}'
 ```
+Fig. 14 shows
 ```.py
  if user:
             print("passed")
@@ -232,6 +238,8 @@ def register():
                 session['token'] = token
                 return response
 ```
+Fig. 15 shows
+
 ### Success Criteria 2: The social network website will allow users to post reviews of the local places, containing title, date, and content. 
 ```.py
   if request.method == 'POST':
@@ -252,6 +260,8 @@ def register():
         return render_template("profile.html", user = user, posts = posts, current_user_id=int(current_user_id))
 
 ```
+Fig. 16 shows
+
 ### Success Criteria 3: The social network website will have a feature to display all users and the city about which they post. 
 ```.py
 @app.route('/users')
@@ -266,6 +276,8 @@ def users():
         db.close()# Closes the database connection
         
 ```
+Fig. 17 shows
+
 ### Success Criteria 4: The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators. 
 ```.py
 city = request.args.get('city')# Gets the city chosen from the option bar (if any)
@@ -278,6 +290,8 @@ city = request.args.get('city')# Gets the city chosen from the option bar (if an
     else:
         return redirect("login")
 ```
+Fig. 18 shows
+
 ### Success Criteria 5: The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile. 
 ```.py
       users, posts = None, None
@@ -288,6 +302,8 @@ city = request.args.get('city')# Gets the city chosen from the option bar (if an
 
         return render_template("profile.html", user = user, posts = posts, current_user_id=int(current_user_id))
 ```
+Fig. 19 shows
+
 ### Success Criteria 6: The social network website will have an interactive option display available cities which user could explore, with an option to learn about each one, by simply clicking at the picture of it. 
 ```.py
 @app.route('/cities', methods=["GET", "POST"])
@@ -298,6 +314,8 @@ def cities():
     return render_template("cities.html", cities=all_cities)
 
 ```
+Fig. 20 shows
+
 ```.py
 @app.route("/city/<city_name>")
 def get_city(city_name):
@@ -306,6 +324,7 @@ def get_city(city_name):
     return render_template("city.html", city=city_data[0])
 
 ```
+Fig. 21 shows
 
 
 # Criteria D: Functionality
