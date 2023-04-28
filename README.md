@@ -110,6 +110,9 @@ Fig.10 Shows a flow diagram representing the feature that allows to view a speci
 Table 1:
 <br>
 Shows the test plan containing information about testing done for this application. There are 3 different types of tests presented in the test plan which are unit test(to test one part of the program), integration test(to test the cooperation of different parts) and code review(to check the quality of code). Table shows description, steps to follow, and expected output with a goal to help user understand the process better.
+
+
+
 ## Record of Tasks
 | Task No | Planned Action   | Design Cycle                                            | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|--------------------------------------------------------|-------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
@@ -151,6 +154,8 @@ Shows the test plan containing information about testing done for this applicati
 | | | | | | | |
 | | | | | | | |
 | | | | | | | |
+
+
 Table 2:	
 <br>
 Record of Task-:shows the planning and working process throughout the project. This includes: programming, documentation, client's meetings, and other process from the start of the project to the due date. Table contains order, description, Planned Outcome, Design Cycle, Time Estimate, Target Completion, Criteria
