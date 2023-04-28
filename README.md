@@ -36,8 +36,9 @@ Fig.1 shows the picture created for Citio Dream AI[^1] generated on the prompt C
 ## 4. [Criteria D: Functionality](#criteria-d-functionality)
  
 4.1 [SNS Video](#video-showcase)
-
-4.2 [Appendix](#appendix)
+## 5. [Criteria E: Evaluation](#criteria-e-evaluation)
+5.1 [Table of Evaluation](#evaluatiojn-table)
+## [Appendix](#appendix)
 # Criteria A: Planning
 ## Problem Definition
 Being in love with exploring small local shops and restaurants, visiting tourist attractions, and everything else that a city has to offer, I have always faced the big challenge of finding them, as they can be hardly found on google maps where only a few places and creators gain exposure, eliminating smaller local shops and restaurants due to their lack of marketing. Another big problem is not having a place where my friends could see only the recipes I upload, so that they could enjoy my exceptional cullinary skills. Current social networks gave these smaller businesses more exposure, but a user has to put great effort to narrow the search only to relevant local places and creators located in their city, and can not find specific creators located in their city. If an adequate solution is not presented soon, these smaller businesses will close due to a lack of traffic, resulting in market concentration, which in turn would hurt the economy and tourism of cities. This problem definition was established with the help of the data gathered through questionnaires.(referred to in the appendix)
@@ -418,7 +419,7 @@ def users():
         db.close()# Closes the database connection
         
 ```
-Fig. 19 shows the function used to showcase the list of all Citio users. It uses an algorithm that checks if the user has a valid cookie and then it shows the list of users extracted from the user database. Table is formated in the order: username, email, and city which is exactly what the criteria 3 required. The development stage was done by using the abstraction and not focusing on other relevnat criteria yet (criteria 4 which is also about the user list display), until this one was solved.
+Fig. 19 shows the function used to showcase the list of all Citio users. It uses an algorithm that checks if the user has a valid cookie and then it shows the list of users extracted from the user database. Table is formated in the order: username, email, and city which is exactly what the criteria 3 required. The development stage was done by using the abstraction and not focusing on other relevant criteria yet (criteria 4 which is also about the user list display), until this one was solved.
 With that, success criteria 3 was met, and a website now had a feature of showcasing its users.
 
 ### Success Criteria 4: The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators. 
@@ -433,7 +434,8 @@ city = request.args.get('city')# Gets the city chosen from the option bar (if an
     else:
         return redirect("login")
 ```
-Fig. 20 shows
+Fig. 20 shows the part of the code responsible for filter functions. User is able to filter the user list by 1) thier username and by 2) their city. Username search was done by creating algorithm that uses the search query inputed in the search bar by the user. Then I abstracted another problem that emerged when decompsing the searchf filter one, and that was it being case sensititve. I solved this by implementing .lower() function into existing algorithm. The city filter was done by using patern recognitionand generalizing the solution for adding cities from the search bar but instead of adding it to the database through the query, I searched users with the chosen city inside of that same database.
+With this two filter options successfully presented, I have managed to met client's 4th success criteria.
 
 ### Success Criteria 5: The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile. 
 ```.py
@@ -472,6 +474,8 @@ Fig. 22 shows
 
 # Criteria D: Functionality
 ## Video showcase
+# Criteria E: Evaluation
+## Evaluation table
 # Appendix
 ### Filled out questionaire Tester 1
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/user_questionaire1.png)
