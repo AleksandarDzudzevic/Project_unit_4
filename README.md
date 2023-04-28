@@ -107,7 +107,9 @@ Fig.10 Shows a flow diagram representing the feature that allows to view a speci
 |4|Finding a specific user through filter options in the user table|Integration testing|Find a user through username search or by choosing a specific city of interest |(1)Run Project_4.py(2)Login using adequate credentials. (3)Choose the "see all users" option from the navigation bar. (4) Choose a city and see if only users from that city appear in the user table. (5) Now type a certain username or a part of it and see if only adequate users appear | Both filter function work and are properly integrated with the user table database and main menu|
 |5|Code practices around html and python, regarding usage of loops and their nesting  |Code Review| Replace repeating funcitons and features using better coding practices by using loops, and make the code more efficient by nesting loops.|(1) Review Project_4.py python code and html code t see any repetitive parts. (2) Create an algortihm that would replace the repetitive part using loops and nesting them if neccesary. (3) Replace the old repetitive code and connect new algorithm and html code to the main SNS code | The code now uses loops for the profile accessing, and for the learn about city feature.| 
 |6| Commenting on complexed code practices |Code Review| Adding comments that would explain the usage of more complex programming tools and algorithms to help future potential developers| (1) Review the python Project_4.py code and focus on the mkore complexed algortihms and routes that have a unique features (2) Add a comment explaining their usage and function in the code| The code is easier to understand and is more open for future co-development|
-
+Table 1:
+<br>
+Shows the test plan containing information about testing done for this application. There are 3 different types of tests presented in the test plan which are unit test(to test one part of the program), integration test(to test the cooperation of different parts) and code review(to check the quality of code). Table shows description, steps to follow, and expected output with a goal to help user understand the process better.
 ## Record of Tasks
 | Task No | Planned Action   | Design Cycle                                            | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|--------------------------------------------------------|-------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
@@ -149,7 +151,9 @@ Fig.10 Shows a flow diagram representing the feature that allows to view a speci
 | | | | | | | |
 | | | | | | | |
 | | | | | | | |
-
+Table 2:	
+<br>
+Record of Task-:shows the planning and working process throughout the project. This includes: programming, documentation, client's meetings, and other process from the start of the project to the due date. Table contains order, description, Planned Outcome, Design Cycle, Time Estimate, Target Completion, Criteria
 # Criteria C: Development
 ## Tools and techniques used
 1. Manipulating SQLite Database
