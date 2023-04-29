@@ -186,7 +186,8 @@ Record of Task-:shows the planning and working process throughout the project. T
 5. “How to - Search Bar.” How To Create a Search Bar, https://www.w3schools.com/howto/howto_css_searchbar.asp. 
 
 ## Development
-#### Design aspect of the social network 
+
+## Design aspect of the social network 
 ```.html
 
 <style>
@@ -286,7 +287,7 @@ Fig.11 Shows the style features used in the bas template design of social networ
 ```
 Fig.12 Another patern that I have recognized was that I needed certain features one click away, regardless of what webpage of the website I was on. This is why I created a navigation bar that is located within the base template, allowing access to certain featrures from whicever page user is currently on.
 ### Success Criteria 1: The social network website will provide a  secure login and registration system. 
-#### Password encryption
+### Password encryption
 ```.py
 from passlib.context import CryptContext
 
@@ -305,7 +306,7 @@ def encrypt_password(user_passowrd):
 Fig. 14 shows method which calls the previously metnioned process of encryotion.
 In order to fulfill client's request for the website, safe and secure data storing is neccesary and it allows privacy of the user to stay at a desired level.
 
-#### Regsitration System
+### Regsitration System
 ```.py
 def register():
     if request.method == 'POST':
@@ -329,7 +330,7 @@ Fig. 15 shows the registration function for the social network website Citio. Th
 
 When developing this part of code using generalisation I was able to recognize a way to solve one of the criteria requirements by including a option bar in the registration where a user would input the city  which he would write about. This helped with solving the problem of seeing irellevent content creators that are not located in my city.
 
-#### Login System
+### Login System
 ```.py
  if request.method == 'POST':
         email = request.form['email']
@@ -385,7 +386,7 @@ Fig.16 shows the function used for the creation of the sesssion tokens. This imp
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/criteria1proofPR4.gif)
 Fig. 17 showcases the proof of criteria 4 being fulfilled, and visually represents the code and developing analyzed above.
 
-### Success Criteria 2: The social network website will allow users to post reviews of the local places, containing title, date, and content. 
+## Success Criteria 2: The social network website will allow users to post reviews of the local places, containing title, date, and content. 
 ```.py
   if request.method == 'POST':
             title = request.form['title']
@@ -411,7 +412,7 @@ With this said, this feature ws successfully developed and client's criteria 2 w
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/criteria2proofPR4.gif)
 Fig. 19 showcases the proof of criteria 4 being fulfilled, and visually represents the code and developing analyzed above.
 
-### Success Criteria 3: The social network website will have a feature to display all users, their contact email, and the show the city about which they post. 
+## Success Criteria 3: The social network website will have a feature to display all users, their contact email, and the show the city about which they post. 
 ```.py
 @app.route('/users')
 @token_required
@@ -429,7 +430,7 @@ Fig. 20 shows the function used to showcase the list of all Citio users. It uses
 With that, success criteria 3 was met, and a website now had a feature of showcasing its users.
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/criteria3proofPR4.gif)
 Fig. 21 showcases the proof of criteria 4 being fulfilled, and visually represents the code and developing analyzed above.
-### Success Criteria 4: The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators. 
+## Success Criteria 4: The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators. 
 ```.py
 city = request.args.get('city')# Gets the city chosen from the option bar (if any)
         search_query = request.args.get('search_query')
@@ -449,7 +450,7 @@ With this two filter options successfully presented, I have managed to met clien
 Fig. 23 showcases the proof of criteria 5 being fulfilled, and visually represents the code and developing analyzed above.
 
 
-### Success Criteria 5: The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile. 
+## Success Criteria 5: The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile. 
 ```.py
       users, posts = None, None
         user = db.search(f"SELECT * from users where id={user_id}")
@@ -464,7 +465,7 @@ This Algorithm, after some modifications, successfully managed to meet eclient's
 
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/criteria5proofPR4.gif)
 Fig. 25 showcases the proof of criteria 5 being fulfilled, and visually represents the code and developing analyzed above.
-### Success Criteria 6: The social network website will have an interactive option display available cities which user could explore, with an option to learn about each one, by simply clicking at the picture of it. 
+## Success Criteria 6: The social network website will have an interactive option display available cities which user could explore, with an option to learn about each one, by simply clicking at the picture of it. 
 ```.py
 @app.route('/cities', methods=["GET", "POST"])
 @token_required
