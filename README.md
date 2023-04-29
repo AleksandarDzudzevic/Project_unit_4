@@ -381,7 +381,9 @@ def token_required(f):
     return decorated
 
 ```
-Fig.17 shows the function used for the creation of the sesssion tokens. This important implementation was inspired by using computational thinking and decomposing the problem of webiste's safety. Even after implemtning cookies, one could still redirect to a page without signing in beforehand. This is why I generalized the algorithm for creating JWT session tokens [^11] which in turn allowed me to set a requirement that a user is logged in before accessing any features of the website. This improved security of the website and solved the previously decomposed problem of safety that the website had.
+Fig.16 shows the function used for the creation of the sesssion tokens. This important implementation was inspired by using computational thinking and decomposing the problem of webiste's safety. Even after implemtning cookies, one could still redirect to a page without signing in beforehand. This is why I generalized the algorithm for creating JWT session tokens [^11] which in turn allowed me to set a requirement that a user is logged in before accessing any features of the website. This improved security of the website and solved the previously decomposed problem of safety that the website had.
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/criteria1proofPR4.gif)
+Fig. 17 showcases the proof of criteria 4 being fulfilled, and visually represents the code and developing analyzed above.
 
 ### Success Criteria 2: The social network website will allow users to post reviews of the local places, containing title, date, and content. 
 ```.py
@@ -406,6 +408,8 @@ Fig.17 shows the function used for the creation of the sesssion tokens. This imp
 Fig. 18 shows the code developed in order to allow posting reviews on the social media website. The algorithm I developed uses if statements to gather article's title,content,time of posting, and checks if the information is being provided by the user currently sigend in. If that is the case a new post will be inserted and the page will be refreshed, now showing the newly posted article. I developed this algorithm using patern recognition from the login page where a similar type was used where after a certain validation a query was used which inserted data inputed into the database.
 With this said, this feature ws successfully developed and client's criteria 2 was successfully met.
 
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/criteria2proofPR4.gif)
+Fig. 19 showcases the proof of criteria 4 being fulfilled, and visually represents the code and developing analyzed above.
 
 ### Success Criteria 3: The social network website will have a feature to display all users, their contact email, and the show the city about which they post. 
 ```.py
@@ -421,9 +425,10 @@ def users():
         db.close()# Closes the database connection
         
 ```
-Fig. 19 shows the function used to showcase the list of all Citio users. It uses an algorithm that checks if the user has a valid cookie and then it shows the list of users extracted from the user database. Table is formated in the order: username, email, and city which is exactly what the criteria 3 required. The development stage was done by using the abstraction and not focusing on other relevant criteria yet (criteria 4 which is also about the user list display), until this one was solved.
+Fig. 20 shows the function used to showcase the list of all Citio users. It uses an algorithm that checks if the user has a valid cookie and then it shows the list of users extracted from the user database. Table is formated in the order: username, email, and city which is exactly what the criteria 3 required. The development stage was done by using the abstraction and not focusing on other relevant criteria yet (criteria 4 which is also about the user list display), until this one was solved.
 With that, success criteria 3 was met, and a website now had a feature of showcasing its users.
-
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/criteria3proofPR4.gif)
+Fig. 21 showcases the proof of criteria 4 being fulfilled, and visually represents the code and developing analyzed above.
 ### Success Criteria 4: The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators. 
 ```.py
 city = request.args.get('city')# Gets the city chosen from the option bar (if any)
@@ -436,8 +441,13 @@ city = request.args.get('city')# Gets the city chosen from the option bar (if an
     else:
         return redirect("login")
 ```
-Fig. 20 shows the part of the code responsible for filter functions. User is able to filter the user list by 1) thier username and by 2) their city. Username search was done by creating algorithm that uses the search query inputed in the search bar by the user. Then I abstracted another problem that emerged when decompsing the searchf filter one, and that was it being case sensititve. I solved this by implementing .lower() function into existing algorithm. The city filter was done by using patern recognitionand generalizing the solution for adding cities from the search bar but instead of adding it to the database through the query, I searched users with the chosen city inside of that same database.
+Fig. 22 shows the part of the code responsible for filter functions. User is able to filter the user list by 1) thier username and by 2) their city. Username search was done by creating algorithm that uses the search query inputed in the search bar by the user. Then I abstracted another problem that emerged when decompsing the searchf filter one, and that was it being case sensititve. I solved this by implementing .lower() function into existing algorithm. The city filter was done by using patern recognitionand generalizing the solution for adding cities from the search bar but instead of adding it to the database through the query, I searched users with the chosen city inside of that same database.
 With this two filter options successfully presented, I have managed to met client's 4th success criteria.
+
+
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/criteria4proofPR4.gif)
+Fig. 23 showcases the proof of criteria 5 being fulfilled, and visually represents the code and developing analyzed above.
+
 
 ### Success Criteria 5: The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile. 
 ```.py
@@ -449,9 +459,11 @@ With this two filter options successfully presented, I have managed to met clien
 
         return render_template("profile.html", user = user, posts = posts, current_user_id=int(current_user_id))
 ```
-Fig. 19 shows the part of the code that is responsible for the option to go to a specific user's profile by clicking on their nickname. The procedure first decomposes the problem to quering users with an id is equal to that of the user that you clicked on. That should be only one user, and then another query inside of this algorithm will get all the posts created by this user which would be returned to the page whose template is being rendered, and we will be able to see them on his profile page. 
+Fig. 24 shows the part of the code that is responsible for the option to go to a specific user's profile by clicking on their nickname. The procedure first decomposes the problem to quering users with an id is equal to that of the user that you clicked on. That should be only one user, and then another query inside of this algorithm will get all the posts created by this user which would be returned to the page whose template is being rendered, and we will be able to see them on his profile page. 
 This Algorithm, after some modifications, successfully managed to meet eclient's criteria 5.
 
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/criteria5proofPR4.gif)
+Fig. 25 showcases the proof of criteria 5 being fulfilled, and visually represents the code and developing analyzed above.
 ### Success Criteria 6: The social network website will have an interactive option display available cities which user could explore, with an option to learn about each one, by simply clicking at the picture of it. 
 ```.py
 @app.route('/cities', methods=["GET", "POST"])
@@ -486,7 +498,7 @@ cities.html
 
 </body>
 ```
-Fig. 21 shows the function that is used to render the template which will, using the base template (Fig.10), show the currently available cities in the Citio social network, and showing a picture their name and a small desription of the place. (These atributes can be seen in the city database Fig.7) The template that is rendered in this function has a feature that will send the user to a specific city page, when a picture of one of these cities ic clicked.
+Fig. 26 shows the function that is used to render the template which will, using the base template (Fig.10), show the currently available cities in the Citio social network, and showing a picture their name and a small desription of the place. (These atributes can be seen in the city database Fig.7) The template that is rendered in this function has a feature that will send the user to a specific city page, when a picture of one of these cities ic clicked.
 
 ```.py
 @app.route("/city/<city_name>")
@@ -520,8 +532,10 @@ city.html
   </div>
 </body>
 ```
-Fig. 22 shows the function responsible for rendering the template of the webpage of the specific city chosen by the user in cities webpage that I refered to earlier (Fig. 21). In order to develop this specific city webpage, I went through a serious reasearch process on how to itterate my repetitive algorithm which repeated the same process 6 times, using 6 different html pages (one for each city). Recognizng this patern I was able to iterate a for loop using jinja inhtml and successfully meet client's 6th and final success criteria.
+Fig. 27 shows the function responsible for rendering the template of the webpage of the specific city chosen by the user in cities webpage that I refered to earlier (Fig. 21). In order to develop this specific city webpage, I went through a serious reasearch process on how to itterate my repetitive algorithm which repeated the same process 6 times, using 6 different html pages (one for each city). Recognizng this patern I was able to iterate a for loop using jinja in html and successfully meet client's 6th and final success criteria.
 
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/criteria6proofPR4.gif)
+Fig.28 showcases the proof of criteria 6 being fulfilled, and reflects on the code and developing analyzed above.
 
 # Criteria D: Functionality
 ## Video showcase
