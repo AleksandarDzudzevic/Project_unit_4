@@ -80,8 +80,8 @@ I will design a new creative social network that will allow users to share their
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/SystemDiagramPr2_v2.png)
 Fig.2 shows the system diagram of the social network website
 ## Wireframe Diagram
-![]()
-Fig.3 Shows the wireframe diagram of the Social network website.
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/wireframeDiagramProject4.jpeg)
+Fig.3 Shows the wireframe diagram of the Social network website. All of the main pages are connected through the navigation bar (indicated with red arrows), which was part of the base template used for the Citio website.
 ## ER Diagram
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/erDiagramProject4Final.png)
 Fig.4 shows database structure of the social network website
@@ -128,7 +128,7 @@ Shows the test plan containing information about testing done for this applicati
 | 7  | Add table of content| Planning |  Add table of content at the top of the file |20 min| April 15th   |   A  |
 |  8 | Create an ER diagram|Design  |  Have an database structure representation for the social network website | 25 min  |  April 15th |   B  |
 | 9 |  Create first version of SNS user interface welcome screen|Development | Have user interface for the starting screen using CSS and HTML style features  |50 min  |  April 15th |  C   |
-|  10| Create System diagram for SNS| Design| Have a first version of system diagram done and ready to be presented to the client | 30 min  | April 16th  | B |
+|  10| Create System diagram for SNS and create the wireframe diagram for the Citio webite| Design| Have a first version of system diagram and wireframe that shows the structure of the website done and ready to be presented to the client | 30 min  | April 16th  | B |
 | 11|   Create functional registration system and have a first version UI for it  created|Development |  Have a functional registration system for the SNS | 35 min    | April 17th    |C
 |  12 | Create a active password policy check for the login feature|Development  | Have a visual presentation showing if the password policy has been met or not  | 25 min | April 18th    | C
 |  13 | Work on flow diargam for the registration system of the SNS and the users list of the SNS| Design  | Have flow diagram that represnets registration system and the user list done  | 55 min  |  April 18th |   B  |
@@ -154,7 +154,7 @@ Shows the test plan containing information about testing done for this applicati
 | 33|Add a delete account option to the Social network website |Development | Be able to delete your account | 15 min| April 28th|C |
 |34|Write down a development process for fulfilling success criteria 2 (Posting reviews)|Development | Show the developing process of the python code that fulfilled the 2nd success criteria stated in the success criteria stated above| 30 min |28th April |C |
 |35 | write down development process for criteria 3,4,5 & 6 as well as the devlopment of the session tokens for the Citio website| Development|Have a development process that is understandable and refers to computational thinking and shows the thinking process of developed algorithms| 1h 30 min|April 28th |C | 
-| | | | | | | |
+| 36| Record the video showcasing how the website functions| Implementation | Record a 4 minute video that shows all the features of the website and how client's criteria was met| 30 min| April 29th | D |
 | | | | | | | |
 | | | | | | | |
 
