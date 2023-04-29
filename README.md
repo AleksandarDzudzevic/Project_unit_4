@@ -553,13 +553,13 @@ Fig.28 showcases the proof of criteria 6 being fulfilled, and reflects on the co
 |5|The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile.| I needed a way to select a specific user and then create a page template for that same user with his account name and posts. I did this by adding a hyperlink that redircts. user to a new page when they click username of a certain account. The new page will be the profile page of the account whose username was previoslu clicked and it will have all his posts| As it can be seen in Fig. 25 I have met client's criteria with this feature that allowed to select a certain profile and looking at their reviews. This was seen in the user interview Fig 29|
 |6|The social network website will have an interactive option display available cities which user could explore, with an option to learn about each one, by simply clicking at the picture of it.|I needed to develop two webpages in order to succeed with this criteria: (1) a general webpage that contains all cities offered in Citio and allow users to learn about each specifically by clciking on the picture which links to the second webpage (2) of a specific city that the user chose. There one could learn about the city, and also hear a fun fact about each of them|As it can be seen in Fig 28 I have met client's criteria with this interactive feature to learn about cities offered in Citio. This was seen in the user interview Fig 29|
 
+Table 3 shows evaluation of all success criteria and the process to meeting them. It refers to the interview of a user of Citio who stated his opinnion on the quality of the webite through the criteria, and posible imporvements for the future.
+
 ## Client interview
 This interview was conducted with one of Citio's users who evaluated if the criteria was met successfully and stated posible imporvements to the application in the future.
 ## https://drive.google.com/file/d/10svpYaMdNyBv4XfzsgFjQ015OGXBtqFd/view?usp=sharing
 
 Fig. 29 is a link to an interview with a Citio user. For the privacy reasons user stayed annonymous. The interview backed the succes of achiving all criteria and also gave some feedback for the future developing of the social network website.
-
-Table 3 shows evaluation of all success criteria and the process to meeting them. It refers to the interview of a user of Citio who stated his opinnion on the quality of the webite through the criteria, and posible imporvements for the future.
 
 
 # Appendix
