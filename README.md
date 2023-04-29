@@ -158,7 +158,7 @@ Shows the test plan containing information about testing done for this applicati
 |35 | write down development process for criteria 3,4,5 & 6 as well as the devlopment of the session tokens for the Citio website| Development|Have a development process that is understandable and refers to computational thinking and shows the thinking process of developed algorithms| 1h 30 min|April 28th |C | 
 | 36| Record the video showcasing how the website functions| Implementation | Record a 4 minute video that shows all the features of the website and how client's criteria was met| 30 min| April 29th | D |
 | 37 |Create a table of evaluation where success criteria was analyzed and explained how they were met  | Evaluation| Have a table of evaluation where the processing of acomplishing criteria stated by the client was clearly explained and indicated| 40 min|April 29th | E|
-|38 | Add user recommendation interview to shwo possible improvements that were sugegsted by the users to improve the social network| Evaluation | Have a interview which shows ideas for improving the application in the future| 25 min|April 29th | E|
+|38 | Add user recommendation interview to shwo possible improvements that were sugegsted by the users to improve the social network| Evaluation | Have a interview which shows ideas for improving the application in the future| 10 min|April 29th | E|
 
 
 Table 2:	
