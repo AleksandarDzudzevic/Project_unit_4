@@ -552,12 +552,12 @@ Fig.28 showcases the proof of criteria 6 being fulfilled, and reflects on the co
 |6|The social network website will have an interactive option display available cities which user could explore, with an option to learn about each one, by simply clicking at the picture of it.|I needed to develop two webpages in order to succeed with this criteria: (1) a general webpage that contains all cities offered in Citio and allow users to learn about each specifically by clciking on the picture which links to the second webpage (2) of a specific city that the user chose. There one could learn about the city, and also hear a fun fact about each of them|As it can be seen in Fig 28 I have met client's criteria with this interactive feature to learn about cities offered in Citio. This was seen in the user interview Fig 29|
 
 ## Client interview
+This interview was conducted with one of Citio's users (username: chirisaan1312) who evaluated if the criteria was met successfully and stated posible imporvements to the application in the future.
+![]()
 Fig. 29
 
 Table 3 shows evaluation of all success criteria and the process to meeting them. It refers to the interview of a user of Citio who stated his opinnion on the quality of the webite through the criteria, and posible imporvements for the future.
 
-## Client interview
-This interview was conducted with one of Citio's users (username: chirisaan1312) who evaluated if the criteria was met successfully and stated posible imporvements to the application in the future.
 
 # Appendix
 ### Filled out questionaire Tester 1
