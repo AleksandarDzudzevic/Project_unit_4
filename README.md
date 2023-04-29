@@ -1,5 +1,5 @@
 # Citio social network
-![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/Project4pictureDreamAi.jpg)
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/dream_TradingCard%20(1).jpg)
 
 
 Fig.1 shows the picture created for Citio Dream AI[^1] generated on the prompt Create an image of people taking pictures of local japanese shops and shrines on their phiones and clouds representing their social media posts about it.
