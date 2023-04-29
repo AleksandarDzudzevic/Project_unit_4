@@ -37,7 +37,7 @@ Fig.1 shows the picture created for Citio Dream AI[^1] generated on the prompt C
  
 4.1 [SNS Video](#video-showcase)
 ## 5. [Criteria E: Evaluation](#criteria-e-evaluation)
-5.1 [Table of Evaluation](#evaluatiojn-table)
+5.1 [Table of Evaluation](#evaluation-table)
 ## [Appendix](#appendix)
 # Criteria A: Planning
 ## Problem Definition
