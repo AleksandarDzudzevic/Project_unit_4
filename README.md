@@ -555,7 +555,9 @@ Fig.28 showcases the proof of criteria 6 being fulfilled, and reflects on the co
 
 ## Client interview
 This interview was conducted with one of Citio's users (username: DJ_Burger420) who evaluated if the criteria was met successfully and stated posible imporvements to the application in the future.
-Fig. 29
+## https://drive.google.com/file/d/10svpYaMdNyBv4XfzsgFjQ015OGXBtqFd/view?usp=sharing
+
+Fig. 29 is a link to an interview with a Citio user. For the privacy reasons user stayed annonymous. The interview backed the succes of achiving all criteria and also gave some feedback for the future developing of the social network website.
 
 Table 3 shows evaluation of all success criteria and the process to meeting them. It refers to the interview of a user of Citio who stated his opinnion on the quality of the webite through the criteria, and posible imporvements for the future.
 
