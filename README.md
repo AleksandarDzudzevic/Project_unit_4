@@ -540,6 +540,8 @@ Fig.28 showcases the proof of criteria 6 being fulfilled, and reflects on the co
 
 # Criteria D: Functionality
 ## Video showcase
+## https://drive.google.com/file/d/1X0ebjV_iJ6acORMNIJx5kQhc6AHnULCD/view?usp=sharing
+
 # Criteria E: Evaluation
 ## Evaluation table
 |Criteria number| Criteria| Process of meeting the criteria| Final product|
@@ -553,7 +555,6 @@ Fig.28 showcases the proof of criteria 6 being fulfilled, and reflects on the co
 
 ## Client interview
 This interview was conducted with one of Citio's users (username: DJ_Burger420) who evaluated if the criteria was met successfully and stated posible imporvements to the application in the future.
-![](https://drive.google.com/file/d/1X0ebjV_iJ6acORMNIJx5kQhc6AHnULCD/view?usp=sharing)
 Fig. 29
 
 Table 3 shows evaluation of all success criteria and the process to meeting them. It refers to the interview of a user of Citio who stated his opinnion on the quality of the webite through the criteria, and posible imporvements for the future.
