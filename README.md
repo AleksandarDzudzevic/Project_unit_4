@@ -158,7 +158,7 @@ Shows the test plan containing information about testing done for this applicati
 |35 | write down development process for criteria 3,4,5 & 6 as well as the devlopment of the session tokens for the Citio website| Development|Have a development process that is understandable and refers to computational thinking and shows the thinking process of developed algorithms| 1h 30 min|April 28th |C | 
 | 36| Record the video showcasing how the website functions| Implementation | Record a 4 minute video that shows all the features of the website and how client's criteria was met| 30 min| April 29th | D |
 | 37 |Create a table of evaluation where success criteria was analyzed and explained how they were met  | Evaluation| Have a table of evaluation where the processing of acomplishing criteria stated by the client was clearly explained and indicated| 40 min|April 29th | E|
-|38 | Add user recommendation interview to shwo possible improvements that were sugegsted by the users to improve the social network| Evaluation | Have a interview which shows ideas for improving the application in the future| 10 min|April 29th | E|
+|38 | Add user recommendation/ evaluation interview to shows how satisfied they are with the way criteria was answered and possible improvements that were sugegsted by the users to improve the social network| Test/Implement | Have a interview which shows ideas for improving the application in the future| 10 min|April 30th | E|
 
 
 Table 2:	
@@ -553,13 +553,30 @@ Fig.28 showcases the proof of criteria 6 being fulfilled, and reflects on the co
 |5|The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile.| I needed a way to select a specific user and then create a page template for that same user with his account name and posts. I did this by adding a hyperlink that redircts. user to a new page when they click username of a certain account. The new page will be the profile page of the account whose username was previoslu clicked and it will have all his posts| As it can be seen in Fig. 25 I have met client's criteria with this feature that allowed to select a certain profile and looking at their reviews. This was seen in the user interview Fig 29|
 |6|The social network website will have an interactive option display available cities which user could explore, with an option to learn about each one, by simply clicking at the picture of it.|I needed to develop two webpages in order to succeed with this criteria: (1) a general webpage that contains all cities offered in Citio and allow users to learn about each specifically by clciking on the picture which links to the second webpage (2) of a specific city that the user chose. There one could learn about the city, and also hear a fun fact about each of them|As it can be seen in Fig 28 I have met client's criteria with this interactive feature to learn about cities offered in Citio. This was seen in the user interview Fig 29|
 
+
+### All the evaluations of success from this tbale were gathered from the client interview (Fig. 29) in which interviewer (Citio representative) went through how satsified the user was with how success criteria was answered. Aditional data and research was gathered from the questionares where user's prefernces werer tested. Thi market testing can be see in the [appendix](#appendix)
+
+
 Table 3 shows evaluation of all success criteria and the process to meeting them. It refers to the interview of a user of Citio who stated his opinnion on the quality of the webite through the criteria, and posible imporvements for the future.
 
 ## Client interview
-This interview was conducted with one of Citio's users who evaluated if the criteria was met successfully and stated posible imporvements to the application in the future.
+This interview was conducted with one of Citio's users who evaluated if the criteria was met successfully and stated posible improvements to the application in the future.
 ## https://drive.google.com/file/d/10svpYaMdNyBv4XfzsgFjQ015OGXBtqFd/view?usp=sharing
 
 Fig. 29 is a link to an interview with a Citio user. For the privacy reasons user stayed annonymous. The interview backed the succes of achiving all criteria and also gave some feedback for the future developing of the social network website.
+
+## Reflection on the interview
+After conductiong this interview
+
+## Recommendation
+After conducting the interview with the Citio user (Fig.29), user identified and justified two possible improvements for the future:
+
+### 1. A system of liking and commenting on the posts:
+This is something that we will deffinatelly consider for the future, as even though we aim to equally promote all posts and reviews, some are certainly better than others, and after reaching out to some other users, we discovered that they share the same opinion. we will stil make sue that this does not hurt our ideology of giving exposure to local shops withoiut a marketing team behind them, and only comments that are truly liked by the community will gain exposure. With this said, this suggestion will be the next step in the future phases of development.
+
+### 2. More cities available in Citio application:
+Te thing that the user from the interview (FIg.29) mentioned multiple times was that even though all the cities relevant to him are on the website, as of this moment, he still thinks more cities are neccessary and that this is the final step to bring Citio to the next level and to gain deserved recognition. His friend s living outside this region can not really use the website even though they wanted to when he shared it with them. This is because right now our social media website mostly focuses on a very small region of Japan, and two biggest cities outside of that region. If there is no increase in the number of cities, website's popularity willnot inrease and further progress will not be possible. With that said, this is not a difficult addition and we will be developing this for sure.
+
 
 
 # Appendix
