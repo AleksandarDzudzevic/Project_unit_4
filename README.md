@@ -286,7 +286,8 @@ Fig.11 Shows the style features used in the bas template design of social networ
 </div>
 ```
 Fig.12 Another patern that I have recognized was that I needed certain features one click away, regardless of what webpage of the website I was on. This is why I created a navigation bar that is located within the base template, allowing access to certain featrures from whicever page user is currently on.
-### Success Criteria 1: The social network website will provide a  secure login and registration system. 
+
+## Success Criteria 1: The social network website will provide a  secure login and registration system. 
 ### Password encryption
 ```.py
 from passlib.context import CryptContext
@@ -430,6 +431,7 @@ Fig. 20 shows the function used to showcase the list of all Citio users. It uses
 With that, success criteria 3 was met, and a website now had a feature of showcasing its users.
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/criteria3proofPR4.gif)
 Fig. 21 showcases the proof of criteria 4 being fulfilled, and visually represents the code and developing analyzed above.
+
 ## Success Criteria 4: The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators. 
 ```.py
 city = request.args.get('city')# Gets the city chosen from the option bar (if any)
