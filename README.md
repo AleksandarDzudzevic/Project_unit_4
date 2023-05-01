@@ -191,13 +191,6 @@ Record of Task-:shows the planning and working process throughout the project. T
 ```.html
 
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        font-size: 18px;
-        margin: 0;
-        padding: 0;
-    }
-
     .navbar {
         overflow: hidden;
         background-color: #79bcff;
@@ -255,22 +248,9 @@ Record of Task-:shows the planning and working process throughout the project. T
         background-color: #6ca2d8;
         color: #fff;
     }
-
-    .image {
-        border-radius: 30px 0 0 30px;
-        overflow: hidden;
-        width: 600px;
-        height: 400px;
-    }
-
-    .image img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
 </style>
 ```
-Fig.11 Shows the style features used in the bas template design of social network. The idea for a base template came from the patern recognition of the similar goals for final designs of differnet features throughout the social network. Instead of rewriting the template every time, I create a base template used for colors of all pages in social network website. In terms of web design, using a light blue color scheme can help create a sense of tranquility and trustworthiness, making it a good choice for websites related to health, finance, or technology. [^10]
+Fig.11 Shows the style features for the naigation bar used in the base template design of social network. The idea for a base template came from the patern recognition of the similar goals for final designs of differnet features throughout the social network. Instead of rewriting the template every time, I create a base template used for colors of all pages in social network website. In terms of web design, using a light blue color scheme can help create a sense of tranquility and trustworthiness, making it a good choice for websites related to health, finance, or technology. [^10]
 
 
 
@@ -285,7 +265,7 @@ Fig.11 Shows the style features used in the bas template design of social networ
     <a href="{{ url_for("delete_profile") }}">Delete the account</a>
 </div>
 ```
-Fig.12 Another patern that I have recognized was that I needed certain features one click away, regardless of what webpage of the website I was on. This is why I created a navigation bar that is located within the base template, allowing access to certain featrures from whicever page user is currently on.
+Fig.12 Another patern that I have recognized was that I needed certain features one click away, regardless of what webpage of the website I was on. This is why I created a navigation bar that is located within the base template, allowing access to certain featrures from whicever page user is currently on. The technique that I used was manipulating Jinja templates in html, which allowed me to use loops and other python features within the html code. This allowed me to allow user to get redirected to another page through a hyper link using get_url function (Fig. 12)
 
 ## Success Criteria 1: The social network website will provide a  secure login and registration system. 
 ### Password encryption
@@ -550,7 +530,7 @@ Fig.28 showcases the proof of criteria 6 being fulfilled, and reflects on the co
 |---------------|----------|-------------------------------|--------------|
 |1|The social network website will provide a secure login and registration system.|As it can be seen in Fig 17 I have met client's criteria with this login and registartion feature. This was seen in the user interview Fig 28| Succeeded|
 |2|The social network website will allow users to post reviews of the local places, containing title, date, and content. |As it can be seen in Fig 19 I have met client's criteria with this login and registartion feature. This was seen in the user interview Fig 29|Succeeded|
-|3|The social network website will have a feature to display all users, their contact email, and the city about which they post.|The procedure to meet his criteria was to cerate a table that would extract all data from the user database and visually present it. This was done by using an algortihm that has a query that extracts all data and then puts in the html table created for this webpage.|As it can be seen in Fig. 21 I have met client's criteria with this user list feature that shows all users and their contact email and city. This was seen in the user interview Fig. 29|Succeeded|
+|3|The social network website will have a feature to display all users, their contact email, and the city about which they post.|As it can be seen in Fig. 21 I have met client's criteria with this user list feature that shows all users and their contact email and city. This was seen in the user interview Fig. 29|Succeeded|
 |4|The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators.|As it can be seen in Fig. 23 I have met client's criteria with this interactive city feature. This was seen in the user interview Fig. 29|Succeeded|
 |5|The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile.| As it can be seen in Fig. 25 I have met client's criteria with this feature that allowed to select a certain profile and looking at their reviews. This was seen in the user interview Fig 29|Succeeded|
 |6|The social network website will have an interactive option display available cities which user could explore, with an option to learn about each one, by simply clicking at the picture of it.|As it can be seen in Fig 28 I have met client's criteria with this interactive feature to learn about cities offered in Citio. This was seen in the user interview Fig 29|Succeeded|
