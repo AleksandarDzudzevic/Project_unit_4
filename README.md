@@ -191,14 +191,14 @@ Record of Task-:shows the planning and working process throughout the project. T
 ```.html
 
 <style>
-    .navbar {
+    .navbar { <!-- shape of the navigation bar and the circular shape -->
         overflow: hidden;
-        background-color: #79bcff;
+        background-color: #79bcff;   
         border-radius: 30px 30px 30px 30px;
         margin-bottom: 20px;
     }
 
-    .navbar a {
+    .navbar a { <!-- Shows the shape of a button/feature within the navigation bar, and it bolds the option where mousepad is currently on -->
         float: left;
         display: block;
         color: #fff;
@@ -213,40 +213,6 @@ Record of Task-:shows the planning and working process throughout the project. T
 
     .navbar a:hover {
         background-color: #394bf6;
-    }
-
-    .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-        max-width: 800px;
-        background-color: #fff;
-        border-radius: 30px 30px 30px 30px;
-        padding: 20px;
-    }
-
-    .options {
-        display: flex;
-        flex-direction: column;
-        margin-left: 20px;
-    }
-
-    .options a {
-        display: block;
-        color: #333;
-        text-decoration: none;
-        margin-bottom: 10px;
-        font-size: 20px;
-        padding: 10px 20px;
-        border-radius: 10px;
-        background-color: #9ecbff;
-        transition: background-color 0.3s ease;
-    }
-
-    .options a:hover {
-        background-color: #6ca2d8;
-        color: #fff;
     }
 </style>
 ```
