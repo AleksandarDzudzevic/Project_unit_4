@@ -177,7 +177,7 @@ Record of Task-:shows the planning and working process throughout the project. T
 9. JWT session token usage
 10. Cookie usage
 11. CSS web design 
-
+12. Using Flask library in Python
 ## Sources
 1. “Beautiful CSS Buttons Examples - CSS Scan.” 92 Beautiful CSS Buttons Examples - CSS Scan, https://getcssscan.com/css-buttons-examples. 
 2. “Flask HTTP Methods, Handle GET &amp; Post Requests.” GeeksforGeeks, GeeksforGeeks, 2 Feb. 2023, https://www.geeksforgeeks.org/flask-http-methods-handle-get-post-requests/. 
