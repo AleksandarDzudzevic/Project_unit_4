@@ -80,7 +80,7 @@ I will design a new creative social network that will allow users to share their
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/SystemDiagramPr2_v2.png)
 Fig.2 shows the system diagram of the social network website
 ## Wireframe Diagram
-![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/wireframeDiagramProject4.jpeg)
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/FInal%20Wireframe%20Diagram.png)
 Fig.3 Shows the wireframe diagram of the Social network website. All of the main pages are connected through the navigation bar (indicated with red arrows), which was part of the base template used for the Citio website.
 ## ER Diagram
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/erDiagramProject4Final.png)
@@ -159,7 +159,7 @@ Shows the test plan containing information about testing done for this applicati
 | 36| Record the video showcasing how the website functions| Implementation | Record a 4 minute video that shows all the features of the website and how client's criteria was met| 30 min| April 29th | D |
 | 37 |Create a table of evaluation where success criteria was analyzed and explained how they were met  | Evaluation| Have a table of evaluation where the processing of acomplishing criteria stated by the client was clearly explained and indicated| 40 min|April 29th | E|
 |38 | Add user recommendation/ evaluation interview to shows how satisfied they are with the way criteria was answered and possible improvements that were sugegsted by the users to improve the social network| Test/Implement | Have a interview which shows ideas for improving the application in the future| 10 min|April 30th | E|
-
+|39| Redo wireframe diargam| Design| Wireframe Diargam is more undrstandable now|35 min |May 2nd | B |
 
 Table 2:	
 <br>
