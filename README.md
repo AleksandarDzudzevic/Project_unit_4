@@ -77,7 +77,7 @@ I will design a new creative social network that will allow users to share their
 
 # Criteria B: Design
 ## System Diagram
-![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/SystemDiagramPr2_v2.png)
+![]([https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/SystemDiagramPr2_v2.png](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/Project_4%20System%20DiagramLAST.png))
 Fig.2 shows the system diagram of the social network website
 ## Wireframe Diagram
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/FInal%20Wireframe%20Diagram.png)
