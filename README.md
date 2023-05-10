@@ -81,7 +81,7 @@ I will design a new creative social network that will allow users to share their
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/Project_4%20System%20DiagramLAST.png)
 Fig.2 shows the system diagram of the social network website
 ## Wireframe Diagram
-![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/FInal%20Wireframe%20Diagram.png)
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/WF%20FINAL.png)
 Fig.3 Shows the wireframe diagram of the Social network website. All of the main pages are connected through the navigation bar (indicated with red arrows), which was part of the base template used for the Citio website.
 ## ER Diagram
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/erDiagramProject4Final.png)
