@@ -349,7 +349,7 @@ In order to successfully develop this I needed to have following things in my al
 
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/criteria1proofPR4.gif)
 
-Fig. 17 showcases the proof of criteria 4 being fulfilled, and visually represents the code and developing analyzed above.
+Fig. 17 showcases the proof of criteria 1 being fulfilled, and visually represents the code and developing analyzed above.
 
 ## Success Criteria 2: The social network website will allow users to post reviews of the local places, containing title, date, and content. 
 ```.py
@@ -375,7 +375,7 @@ Fig. 18 shows the code developed in order to allow posting reviews on the social
 With this said, this feature ws successfully developed and client's criteria 2 was successfully met.
 
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/criteria2proofPR4.gif)
-Fig. 19 showcases the proof of criteria 4 being fulfilled, and visually represents the code and developing analyzed above.
+Fig. 19 showcases the proof of criteria 2 being fulfilled, and visually represents the code and developing analyzed above.
 
 ## Success Criteria 3: The social network website will have a feature to display all users, their contact email, and the show the city about which they post. 
 ```.py
@@ -394,7 +394,7 @@ def users():
 Fig. 20 shows the function used to showcase the list of all Citio users. It uses an algorithm that checks if the user has a valid cookie and then it shows the list of users extracted from the user database. Table is formated in the order: username, email, and city which is exactly what the criteria 3 required. The development stage was done by using the abstraction and not focusing on other relevant criteria yet (criteria 4 which is also about the user list display), until this one was solved.
 With that, success criteria 3 was met, and a website now had a feature of showcasing its users.
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/criteria3proofPR4.gif)
-Fig. 21 showcases the proof of criteria 4 being fulfilled, and visually represents the code and developing analyzed above.
+Fig. 21 showcases the proof of criteria 3 being fulfilled, and visually represents the code and developing analyzed above.
 
 ## Success Criteria 4: The social network website will have an option to choose a specific city which you are interested in through a filter or use a username search filter, and see only relevant content creators. 
 ```.py
@@ -413,7 +413,7 @@ With this two filter options successfully presented, I have managed to met clien
 
 
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/criteria4proofPR4.gif)
-Fig. 23 showcases the proof of criteria 5 being fulfilled, and visually represents the code and developing analyzed above.
+Fig. 23 showcases the proof of criteria 4 being fulfilled, and visually represents the code and developing analyzed above.
 
 
 ## Success Criteria 5: The social network website will to have a feature to see all reviews posted by a specific user, by selecting their profile. 
