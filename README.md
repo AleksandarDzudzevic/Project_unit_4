@@ -348,6 +348,7 @@ In order to successfully develop this I needed to have following things in my al
 
 
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/criteria1proofPR4.gif)
+
 Fig. 17 showcases the proof of criteria 4 being fulfilled, and visually represents the code and developing analyzed above.
 
 ## Success Criteria 2: The social network website will allow users to post reviews of the local places, containing title, date, and content. 
