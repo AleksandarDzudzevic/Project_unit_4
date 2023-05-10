@@ -93,7 +93,7 @@ Fig.6 shows post database of social network website, presented in the ER diagram
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/project4databaseCity.png)
 Fig.7 shows the city database of the social network website, presneted in the ER diagram (Fig.4). (Examples provided are the cities currently available in the Citio SNS.)
 ## UML Diagram
-![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/Screenshot%202023-04-21%20at%2023.48.39.png)
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/Screenshot%202023-05-10%20at%2011.54.43.png)
 Fig. 7 shows the class used for manipulating database, used for the website application 
 ## Flow Diagram
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/project4_flowch1_register.png)
