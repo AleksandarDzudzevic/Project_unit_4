@@ -77,13 +77,13 @@ I will design a new creative social network that will allow users to share their
 
 # Criteria B: Design
 ## System Diagram
-![]([https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/SystemDiagramPr2_v2.png](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/Project_4%20System%20DiagramLAST.png))
+![][https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/SystemDiagramPr2_v2.png](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/Project_4%20System%20DiagramLAST.png)
 Fig.2 shows the system diagram of the social network website
 ## Wireframe Diagram
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/FInal%20Wireframe%20Diagram.png)
 Fig.3 Shows the wireframe diagram of the Social network website. All of the main pages are connected through the navigation bar (indicated with red arrows), which was part of the base template used for the Citio website.
 ## ER Diagram
-![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/erDiagramProject4Final.png)
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/Screenshot%202023-05-10%20at%2011.54.43.png)
 Fig.4 shows database structure of the social network website
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/user%20databse.png)
 Fig.5 shows user database of the social network website, presented in the ER diagram (data provided in the example is not actual data gathered from any of the users.)
