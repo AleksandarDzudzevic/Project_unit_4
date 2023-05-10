@@ -217,6 +217,8 @@ Record of Task-:shows the planning and working process throughout the project. T
     }
 </style>
 ```
+Fig.10 Navigation Bar design style 
+
 Fig.10 Shows the style features for the naigation bar used in the base template design of social network. The idea for a base template came from the patern recognition of the similar goals for final designs of differnet features throughout the social network. Instead of rewriting the template every time, I create a base template used for colors of all pages in social network website. In terms of web design, using a light blue color scheme can help create a sense of tranquility and trustworthiness, making it a good choice for websites related to health, finance, or technology. [^10]
 
 
@@ -232,6 +234,8 @@ Fig.10 Shows the style features for the naigation bar used in the base template 
     <a href="{{ url_for("delete_profile") }}">Delete the account</a>
 </div>
 ```
+Fig.11 HTML aspect of navigation bar using jinja template
+
 Fig.11 Another patern that I have recognized was that I needed certain features one click away, regardless of what webpage of the website I was on. This is why I created a navigation bar that is located within the base template, allowing access to certain featrures from whicever page user is currently on. The technique that I used was manipulating Jinja templates in html, which allowed me to use loops and other python features within the html code. This allowed me to allow user to get redirected to another page through a hyper link using get_url function (Fig. 12)
 
 ## Success Criteria 1: The social network website will provide a  secure login and registration system. 
@@ -244,6 +248,8 @@ pwd_config = CryptContext(schemes = ["pbkdf2_sha256"],
                           pbkdf2_sha256__default_rounds = 30000
                           )
 ```
+Fig.12 Shows the encryption function used for securing users' data
+
 Fig. 12 shows the process and encryption method used for the password hashing for the Social network website. To prevent any serious harm in the case of data leaking, where if the same password is used in multiple places, intruder can use that and the email for other web services, hurting the user in the process.
 ```.py
 # this function receives unsafe password and returns the hashed password
@@ -251,7 +257,7 @@ def encrypt_password(user_passowrd):
     return pwd_config.encrypt(user_passowrd)
 
 ```
-Fig. 13 shows method which calls the previously metnioned process of encryotion.
+Fig. 13 shows method which calls the previously mentioned process of encryption.
 In order to fulfill client's request for the website, safe and secure data storing is neccesary and it allows privacy of the user to stay at a desired level.
 
 ### Regsitration System
@@ -274,8 +280,9 @@ def register():
         return redirect(url_for("login"))
     return render_template('register.html')
 ```
-Fig. 14 shows the registration function for the social network website Citio. The function takes the usernamme,city,email and a password which is then encrypted before storing everything into user database. we see that after running the query and successfully storing the infromation of the newly registered user, a user is redirected to the login page where it can access the website using credentials of the newly registered account.
+Fig. 14 shows the registration function for the social network website Citio. 
 
+in Fig.14 The function takes the usernamme,city,email and a password which is then encrypted before storing everything into user database. we see that after running the query and successfully storing the infromation of the newly registered user, a user is redirected to the login page where it can access the website using credentials of the newly registered account.
 When developing this part of code using generalisation I was able to recognize a way to solve one of the criteria requirements by including a option bar in the registration where a user would input the city  which he would write about. This helped with solving the problem of seeing irellevent content creators that are not located in my city.
 
 ### Login System
@@ -296,7 +303,9 @@ When developing this part of code using generalisation I was able to recognize a
                 session['token'] = token
                 return response
 ```
-Fig. 15 shows the login function of the social network website. After getting the credentials that a user inpted I developed an algorithm that searches through the suer database, looking for an account with a matching email address. Policy for the email address is to have symbol "@" and characters before and after it. If there is such a user, algorithm would then check if the encryption of the password they inputed matches the one in the database that was stored upon registration of the account. If it does, login is successful and a user is given a session token that lasts 30 minutes after which they would need to login again. 
+Fig.15 shows Login system feature of the website
+
+Fig. 15 we see the login function of the social network website. After getting the credentials that a user inpted I developed an algorithm that searches through the suer database, looking for an account with a matching email address. Policy for the email address is to have symbol "@" and characters before and after it. If there is such a user, algorithm would then check if the encryption of the password they inputed matches the one in the database that was stored upon registration of the account. If it does, login is successful and a user is given a session token that lasts 30 minutes after which they would need to login again. 
 With this said, this feature was successfully developed and client's criteria 1 was successfully met.
 
 ```.py
@@ -330,7 +339,14 @@ def token_required(f):
     return decorated
 
 ```
-Fig.16 shows the function used for the creation of the sesssion tokens. This important implementation was inspired by using computational thinking and decomposing the problem of webiste's safety. Even after implemtning cookies, one could still redirect to a page without signing in beforehand. This is why I generalized the algorithm for creating JWT session tokens [^11] which in turn allowed me to set a requirement that a user is logged in before accessing any features of the website. This improved security of the website and solved the previously decomposed problem of safety that the website had.
+FIg.16 shows the JWT session token feature of the website. 
+
+In Fig.16 shows the function used for the creation of the sesssion tokens. This important implementation was inspired by using computational thinking and decomposing the problem of webiste's safety. Even after implemtning cookies, one could still redirect to a page without signing in beforehand. This is why I generalized the algorithm for creating JWT session tokens [^11] which in turn allowed me to set a requirement that a user is logged in before accessing any features of the website. This improved security of the website and solved the previously decomposed problem of safety that the website had.
+
+In order to successfully develop this I needed to have following things in my algorithm: The wraps function from functools module is used to preserve the original function's metadata (data contaitng information about certain data, in this case about the function). After that the decorated function checks if a token is present in the user's session. If a token is present, the function attempts to decode it using the 'jwt.decode' function. If the token is invalid, the user is redirected to the login page. If the token is valid, the decorated function is called with the original arguments and keyword arguments using the 'f' function. For this, args is used to pass a variable number of non-keyword arguments to the decorated function and kwargs is used to pass a variable number of keyword arguments to the decorated function. 
+
+
+
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/criteria1proofPR4.gif)
 Fig. 17 showcases the proof of criteria 4 being fulfilled, and visually represents the code and developing analyzed above.
 
