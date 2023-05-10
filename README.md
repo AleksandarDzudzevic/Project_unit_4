@@ -62,7 +62,8 @@ HTML is the standard markup language used to create web pages and it provides th
 I will design a new creative social network that will allow users to share their reviews of the small local places. The development will be done using the software Flask framework in Python, CSS and HTML. It will take around 5 weeks to develop and will be evaluated according to the success criteria stated below by the client.
 
 ## Success Criteria
-1. The social network website will provide a secure login and registration system. 
+1. The social network website will provide a secure login and registration s[
+](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/erDiagramProject4Final.png)ystem. 
 >[ Another big problem is not having a place where my friends could see only the recipes I upload]
 2. The social network website will allow users to post reviews of the local places, containing title, date, and content. 
 >[I have always faced the big challenge of finding them, as they can be hardly found on google maps where only a few gain exposure]
@@ -83,6 +84,7 @@ Fig.2 shows the system diagram of the social network website
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/FInal%20Wireframe%20Diagram.png)
 Fig.3 Shows the wireframe diagram of the Social network website. All of the main pages are connected through the navigation bar (indicated with red arrows), which was part of the base template used for the Citio website.
 ## ER Diagram
+![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/erDiagramProject4Final.png)
 Fig.4 shows database structure of the social network website
 ![](https://github.com/AleksandarDzudzevic/Project_unit_4/blob/main/user%20databse.png)
 Fig.5 shows user database of the social network website, presented in the ER diagram (data provided in the example is not actual data gathered from any of the users.)
