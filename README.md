@@ -217,7 +217,7 @@ Record of Task-:shows the planning and working process throughout the project. T
     }
 </style>
 ```
-Fig.11 Shows the style features for the naigation bar used in the base template design of social network. The idea for a base template came from the patern recognition of the similar goals for final designs of differnet features throughout the social network. Instead of rewriting the template every time, I create a base template used for colors of all pages in social network website. In terms of web design, using a light blue color scheme can help create a sense of tranquility and trustworthiness, making it a good choice for websites related to health, finance, or technology. [^10]
+Fig.10 Shows the style features for the naigation bar used in the base template design of social network. The idea for a base template came from the patern recognition of the similar goals for final designs of differnet features throughout the social network. Instead of rewriting the template every time, I create a base template used for colors of all pages in social network website. In terms of web design, using a light blue color scheme can help create a sense of tranquility and trustworthiness, making it a good choice for websites related to health, finance, or technology. [^10]
 
 
 
@@ -232,7 +232,7 @@ Fig.11 Shows the style features for the naigation bar used in the base template 
     <a href="{{ url_for("delete_profile") }}">Delete the account</a>
 </div>
 ```
-Fig.12 Another patern that I have recognized was that I needed certain features one click away, regardless of what webpage of the website I was on. This is why I created a navigation bar that is located within the base template, allowing access to certain featrures from whicever page user is currently on. The technique that I used was manipulating Jinja templates in html, which allowed me to use loops and other python features within the html code. This allowed me to allow user to get redirected to another page through a hyper link using get_url function (Fig. 12)
+Fig.11 Another patern that I have recognized was that I needed certain features one click away, regardless of what webpage of the website I was on. This is why I created a navigation bar that is located within the base template, allowing access to certain featrures from whicever page user is currently on. The technique that I used was manipulating Jinja templates in html, which allowed me to use loops and other python features within the html code. This allowed me to allow user to get redirected to another page through a hyper link using get_url function (Fig. 12)
 
 ## Success Criteria 1: The social network website will provide a  secure login and registration system. 
 ### Password encryption
@@ -244,14 +244,14 @@ pwd_config = CryptContext(schemes = ["pbkdf2_sha256"],
                           pbkdf2_sha256__default_rounds = 30000
                           )
 ```
-Fig. 13 shows the process and encryption method used for the password hashing for the Social network website. To prevent any serious harm in the case of data leaking, where if the same password is used in multiple places, intruder can use that and the email for other web services, hurting the user in the process.
+Fig. 12 shows the process and encryption method used for the password hashing for the Social network website. To prevent any serious harm in the case of data leaking, where if the same password is used in multiple places, intruder can use that and the email for other web services, hurting the user in the process.
 ```.py
 # this function receives unsafe password and returns the hashed password
 def encrypt_password(user_passowrd):
     return pwd_config.encrypt(user_passowrd)
 
 ```
-Fig. 14 shows method which calls the previously metnioned process of encryotion.
+Fig. 13 shows method which calls the previously metnioned process of encryotion.
 In order to fulfill client's request for the website, safe and secure data storing is neccesary and it allows privacy of the user to stay at a desired level.
 
 ### Regsitration System
@@ -274,7 +274,7 @@ def register():
         return redirect(url_for("login"))
     return render_template('register.html')
 ```
-Fig. 15 shows the registration function for the social network website Citio. The function takes the usernamme,city,email and a password which is then encrypted before storing everything into user database. we see that after running the query and successfully storing the infromation of the newly registered user, a user is redirected to the login page where it can access the website using credentials of the newly registered account.
+Fig. 14 shows the registration function for the social network website Citio. The function takes the usernamme,city,email and a password which is then encrypted before storing everything into user database. we see that after running the query and successfully storing the infromation of the newly registered user, a user is redirected to the login page where it can access the website using credentials of the newly registered account.
 
 When developing this part of code using generalisation I was able to recognize a way to solve one of the criteria requirements by including a option bar in the registration where a user would input the city  which he would write about. This helped with solving the problem of seeing irellevent content creators that are not located in my city.
 
@@ -296,7 +296,7 @@ When developing this part of code using generalisation I was able to recognize a
                 session['token'] = token
                 return response
 ```
-Fig. 16 shows the login function of the social network website. After getting the credentials that a user inpted I developed an algorithm that searches through the suer database, looking for an account with a matching email address. Policy for the email address is to have symbol "@" and characters before and after it. If there is such a user, algorithm would then check if the encryption of the password they inputed matches the one in the database that was stored upon registration of the account. If it does, login is successful and a user is given a session token that lasts 30 minutes after which they would need to login again. 
+Fig. 15 shows the login function of the social network website. After getting the credentials that a user inpted I developed an algorithm that searches through the suer database, looking for an account with a matching email address. Policy for the email address is to have symbol "@" and characters before and after it. If there is such a user, algorithm would then check if the encryption of the password they inputed matches the one in the database that was stored upon registration of the account. If it does, login is successful and a user is given a session token that lasts 30 minutes after which they would need to login again. 
 With this said, this feature was successfully developed and client's criteria 1 was successfully met.
 
 ```.py
