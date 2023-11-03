@@ -141,8 +141,8 @@ Shows the test plan containing information about testing done for this applicati
 | 17  | Add a base template options menu to all the pages (Development) | Have an options menu containg logout, user list, read articles...  | 30 min  |April 21st   |C     |
 |  18 | Create a UML diagram for the web aplication (Design) | Have a Uml Diagram fimished for the SNS  | 15 min  | April 21st  |  B   |
 | 19  | Update the test plan and add 2nd integration test, testing user list feature of the website (Testing)  | Have a written test about user list feature  |  10 min | April 22nd  |  B   |
-|20   | Test accesing the user list from the main menu page (Testing) | Update the test plan with integration test relating allowing registered user to acces the table containing users of citio| 15 min  |  April 22 | B    |
-|  21 | Test accesing a specific user from the user list feature. (Testing) | Update the test plan with integration test relating the feature that check a specific account from the user list  |  15 min | April 22nd  |  B   |
+|20   | Test accessing the user list from the main menu page (Testing) | Update the test plan with integration test relating to allowing registered users to acces the table containing users of citio| 15 min  |  April 22 | B    |
+|  21 | Test accessing a specific user from the user list feature. (Testing) | Update the test plan with an integration test relating the feature that checks a specific account from the user list  |  15 min | April 22nd  |  B   |
 |  22 |  Creating new UI for the register, login, and home page of the website (Development) | Have more modern UI for the mentioned pages   | 40 min  | April 24th  |   C  |
 |   23| Add a filter by city option for the user table (Development) |  Have a functioning feature to select the city of interest and see only relevant content creators | 20 min |  April 24th |  C   |
 |   24| Add a search bar option for the user table (Development) | Have a functioning username search abr that will allow searching for a desried user/s fromthe user table  | 40 min  | April 24th  |  C   |
